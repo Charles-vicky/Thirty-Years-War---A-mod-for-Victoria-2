@@ -1,0 +1,35 @@
+army = {
+	name = "Ming Army"
+	location = 1541
+	regiment = {
+		name= "1. Beijamg"
+		type = irregular
+		home = 1541
+	}
+	regiment = {
+		name= "1. Beijamg"
+		type = irregular
+		home = 1541
+	}
+	regiment = {
+		name= "1. Beijamg"
+		type = irregular
+		home = 1541
+	}
+	regiment = {
+		name= "1. Beijamg"
+		type = irregular
+		home = 1541
+	}
+	regiment = {
+		name= "1. Beijamg"
+		type = irregular
+		home = 1541
+	}
+	regiment = {
+		name= "1. Beijamg"
+		type = irregular
+		home = 1541
+	}
+
+}

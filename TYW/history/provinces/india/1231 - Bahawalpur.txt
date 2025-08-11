@@ -1,0 +1,12 @@
+owner = PUN
+controller = PUN
+add_core = PUN
+add_core = PAN
+add_core = HND
+trade_goods = tea
+life_rating = 32
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}

@@ -1,0 +1,13 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+protestant_alliance = {
+    trigger = {
+	has_country_flag = protestant_union
+	}
+	global_immigrant_attract = 0.1
+	prestige = 0.05
+	icon = 18
+}	

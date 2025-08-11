@@ -1,0 +1,6 @@
+owner = GAJ
+controller = GAJ
+add_core = GAJ
+add_core = HND
+trade_goods = grain
+life_rating = 32

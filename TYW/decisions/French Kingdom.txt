@@ -1,0 +1,262 @@
+political_decisions = {
+	subside_the_segadors_war = {
+	    picture = catalonia
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = segadors_war
+			}
+		}
+	
+		allow =  {
+		  OR = {
+		  AND = {
+		    498 = {
+			  controlled_by = FRA
+			  }
+			  
+			  SPA = {
+				has_country_flag = union_de_armas
+			  
+		    }
+		   }
+		   year = 1640 
+			
+		   }
+		      
+		}
+		
+			effect = {
+		    SPA = {
+				release = CAT
+		    }
+			set_country_flag = segadors_war
+            treasury = -50000 
+            SPA = {
+		      country_event = {
+		        id = 6
+			    days = 5
+		      } 
+		    }			
+		}
+    
+	}
+	
+	the_pirineos_treaty = {
+	    picture = pirineos_treaty
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = end_for_reapers_war
+			}
+		}
+	
+		allow = {
+		  state_n_government = 1
+		  SPA = {
+			    has_country_flag = we_are_losers
+		  }
+		  SPA = {
+		  has_country_flag = the_catalan_conflict
+		  }
+        }		  
+	
+		effect = {
+		    401 = {
+		    secede_province = FRA
+		    }
+			405 = {
+		    secede_province = FRA
+		    }
+			464 = {
+		    secede_province = FRA
+		    }
+			401 = {
+		    add_core = FRA
+		    }
+			405 = {
+		    add_core = FRA
+		    }
+			464 = {
+		    add_core = FRA
+		    }
+			set_country_flag = end_for_reapers_war
+            money = 50000
+            SPA = {
+		    inherit = CAT
+		    }
+            prestige = 15			
+        }
+    }
+	
+	the_cores_of_belgium = {
+	    picture = belgium
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = the_north_cores
+			}
+		}
+	
+		allow = {
+		  revolution_n_counterrevolution = 1
+        }		  
+	
+		effect = {
+			404 = {
+		    add_core = FRA
+		    }
+			399 = {
+		    add_core = FRA
+		    }
+			3249 = {
+		    add_core = FRA
+		    }
+			set_country_flag = the_north_cores
+            prestige = 10
+            badboy = 5
+            inherit = STR			
+        }
+    }
+	
+	french_comte_question = {
+	    picture = frc
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = french_comte
+			}
+		}
+	
+		allow = {
+		  nationalism_n_imperialism = 1
+        }		  
+	
+		effect = {
+			407 = {
+		    add_core = FRA
+		    }
+			414 = {
+		    secede_province = FRA
+		    }
+			432 = {
+		    add_core = FRA
+		    }
+			431 = {
+		    add_core = FRA
+		    }
+			set_country_flag = french_comte
+            prestige = 10
+            badboy = 5			
+        }
+    }
+	
+	build_versailles_palace = {
+	    picture = versalles
+		potential = {
+		    tag = FRA
+			NOT = {
+				has_country_flag = versailles_palace
+			}
+		}
+		
+		allow = {
+		  impressionism = 1
+		  nationalism_n_imperialism = 1
+		  central_bank_money_bill_printing = 1
+		  money = 500000
+		  prestige = 100
+		  year = 1661
+		}
+		
+		effect = {
+		  prestige = 50
+		  set_country_flag = versailles_palace
+		  country_event = {
+		    id = 19
+			days = 5
+		  }
+		}
+	}
+	
+	the_new_gov_org_of_louis = {
+	    picture = bixby_letter
+		potential = {
+		    tag = FRA
+			NOT = {
+				has_country_flag = louis_reforms
+			}
+		}
+		
+		allow = {
+		  the_historical_theory = 1
+		  central_bank_money_bill_printing = 1
+		  money = 100000
+		  has_country_flag = louis_is_the_king
+		}
+		
+		effect = {
+		  prestige = 10
+		  set_country_flag = louis_reforms
+		  country_event = {
+		  id = 62
+		  days = 5
+		  }
+		}
+	}
+	
+	the_new_war_minister = {
+	    picture = warminister
+		potential = {
+		    tag = FRA
+			NOT = {
+				has_country_flag = new_war_minister
+			}
+		}
+		
+		allow = {
+		  point_defense_system = 1
+		  breech_loaded_rifles = 1
+		  money = 100000
+		}
+		
+		effect = {
+		  prestige = 10
+		  set_country_flag = new_war_minister
+		  define_general = {
+	      name = "Francois Michel Le Tellier"
+	      personality = "implacable"
+	      background = "spoiled"
+          }
+		}
+	}
+	
+	road_to_lake_huston = {
+	    picture = huston
+		potential = {
+		    tag = FRA
+			NOT = {
+				has_country_flag = lake_huston_expedition
+			}
+		}
+		
+		allow = {
+		  nationalism_n_imperialism = 1
+		  money = 100000
+		}
+		
+		effect = {
+		  prestige = 10
+		  set_country_flag = lake_huston_expedition
+		  53 = {
+		  secede_province = FRA
+		  }
+		  54 = {
+		  secede_province = FRA
+		  }
+		  55 = {
+		  secede_province = FRA
+		  }
+		}
+	}
+}

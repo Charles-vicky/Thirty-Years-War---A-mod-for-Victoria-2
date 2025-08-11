@@ -1,0 +1,41 @@
+political_decisions = {
+	start_the_portuguese_restoration_war = {
+	    picture = braganza
+		potential = {
+			tag = POR
+			NOT = {
+				has_country_flag = braganza_revolt
+			}
+		}
+	
+		allow = {
+		  OR = {
+		    487 = {
+			  controlled_by = FRA
+			  
+		    }
+			
+		    year = 1640
+			
+		  }
+        
+		}
+		
+		effect = {
+	    set_country_flag = braganza_revolt
+        treasury = 50000
+        SPA = {
+		  release_vassal = POR
+		  }
+        SPA = {
+		  country_event = {
+		    id = 8
+			days = 5
+		  }
+		}		  	
+		
+        }
+        
+    }
+
+}

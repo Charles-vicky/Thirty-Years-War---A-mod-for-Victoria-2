@@ -1,0 +1,124 @@
+country_event = {
+	id = 6
+    title = "EVTNAME6"
+	desc = "EVTDESC6"
+	picture = "revolt"
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA6"
+        war = {
+	    target = CAT
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = status_quo }
+	    call_ally = no
+        }
+		set_country_flag = the_catalan_conflict
+	}
+	option = {
+		name = "EVTOPTB6"
+        war = {
+	    target = CAT
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = status_quo }
+	    call_ally = no
+        }
+		set_country_flag = the_catalan_conflict
+		change_tag_no_core_switch = CAT
+	}
+}
+
+country_event = {
+	id = 63
+    title = "EVTNAME63"
+	desc = "EVTDESC63"
+	picture = "diploincident"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA63"
+		prestige = -20
+	    badboy = -10
+		money = 1000000
+		2270 = {
+		secede_province = FROM
+		}
+		2271 = {
+		secede_province = FROM
+		}
+		2272 = {
+		secede_province = FROM
+		}
+		2273 = {
+		secede_province = FROM
+		}
+		2268 = {
+		secede_province = FROM
+		}
+		2264 = {
+		secede_province = FROM
+		}
+		2267 = {
+		secede_province = FROM
+		}
+		2269 = {
+		secede_province = FROM
+		}
+		2276 = {
+		secede_province = FROM
+		}
+		2265 = {
+		secede_province = FROM
+		}
+		2266 = {
+		secede_province = FROM
+		}
+		2274 = {
+		secede_province = FROM
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB63"
+		   FROM = {
+		   casus_belli = {
+	       target = THIS
+	       type = place_in_the_sun
+	       months = 12
+           }
+		}
+	}
+}
+
+country_event = {
+	id = 76
+    title = "EVTNAME76"
+	desc = "EVTDESC76"
+	picture = "diploincident"
+	
+	trigger = {
+	       tag = SPA
+	       POR = {
+		       all_core = {
+			     controlled_by = SPA
+			   }
+		   }
+	}
+	
+	fire_only_once = yes
+
+    major = yes
+      
+	option = {
+		name = "EVTOPTA76"
+		POR = {
+		    any_owned_province = {
+			     change_controller = SPA
+			}
+	     }
+    }
+}

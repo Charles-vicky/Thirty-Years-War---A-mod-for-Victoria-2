@@ -1,0 +1,23 @@
+alliance=
+	{
+		first="HAB"
+		second="HUN"
+		end_date="1724.1.1"
+		start_date="1618.5.28"
+	}
+
+alliance=
+	{
+		first="HAB"
+		second="SPA"
+		end_date="1724.1.1"
+		start_date="1618.5.28"
+	}
+
+alliance=
+	{
+		first="HAB"
+		second="HRE"
+		end_date="1724.1.1"
+		start_date="1618.5.28"
+	}

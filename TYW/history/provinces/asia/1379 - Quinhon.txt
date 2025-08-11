@@ -1,0 +1,5 @@
+owner = NGU
+controller = NGU
+add_core = NGU
+trade_goods = silk
+life_rating = 30

@@ -1,0 +1,5 @@
+owner = NAJ
+controller = NAJ
+add_core = NAJ
+trade_goods = sulphur
+life_rating = 30

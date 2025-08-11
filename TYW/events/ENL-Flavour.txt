@@ -1,0 +1,205 @@
+country_event = {
+	id = 64
+    title = "EVTNAME64"
+	desc = "EVTDESC64"
+	picture = "gcw"
+	
+	trigger = {
+		tag = ENL
+		year = 1642
+		month = 10
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA64"
+		release_vassal = SCO
+		SCO = { all_core = { add_core = STU } }
+		government = democracy
+		SCO = {
+		release = STU
+		}
+		280 = {
+		secede_province = STU
+		}
+		279 = {
+		secede_province = STU
+		}
+		299 = {
+		secede_province = STU
+		}
+		282 = {
+		secede_province = STU
+		}
+		278 = {
+		secede_province = STU
+		}
+		288 = {
+		secede_province = STU
+		}
+		290 = {
+		secede_province = STU
+		}
+        war = {
+	    target = STU
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = civil_war }
+	    call_ally = no
+        }
+		define_general = {
+	    name = Oliver Cromwell
+	    personality = wrathful
+	    background = colonial_b
+        }
+	}
+	option = {
+		name = "EVTOPTB64"
+		release_vassal = SCO
+		SCO = { all_core = { add_core = STU } }
+		government = democracy
+		SCO = {
+		release = STU
+		}
+		299 = {
+		secede_province = STU
+		}
+		280 = {
+		secede_province = STU
+		}
+		279 = {
+		secede_province = STU
+		}
+		282 = {
+		secede_province = STU
+		}
+		278 = {
+		secede_province = STU
+		}
+		288 = {
+		secede_province = STU
+		}
+		290 = {
+		secede_province = STU
+		}
+		change_tag_no_core_switch = STU
+        war = {
+	    target = ENL
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = civil_war }
+	    call_ally = no
+        }
+	}
+}
+
+country_event = {
+	id = 68
+    title = "EVTNAME68"
+	desc = "EVTDESC68"
+	picture = "gcw"
+	
+	trigger = {
+		tag = ENL
+		government = democracy
+		year = 1660
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA68"
+		government = hms_government
+	}
+}
+
+country_event = {
+	id = 69
+    title = "EVTNAME69"
+	desc = "EVTDESC69"
+	picture = "gcw"
+	
+	trigger = {
+		tag = STU
+		war = no
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA69"
+		ENL = { all_core = { add_core = THIS } }
+		prestige = 50
+	}
+}
+
+country_event = {
+	id = 70
+    title = "EVTNAME70"
+	desc = "EVTDESC70"
+	picture = "gcw"
+	
+	trigger = {
+		tag = STU
+		war = no
+		year = 1650
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA70"
+		release = USA
+	}
+}
+
+country_event = {
+	id = 71
+    title = "EVTNAME71"
+	desc = "EVTDESC71"
+	picture = "gcw"
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA71"
+		ENL = {
+		    any_owned_province = {
+			     change_controller = STU
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 72
+    title = "EVTNAME72"
+	desc = "EVTDESC72"
+	picture = "gcw"
+	
+	trigger = {
+		tag = ENL
+		war = no
+		year = 1644
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA72"
+		prestige = 30
+		release = SCO
+		create_vassal = SCO
+	}
+}

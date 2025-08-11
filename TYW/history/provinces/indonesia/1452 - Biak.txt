@@ -1,0 +1,7 @@
+owner = TID
+controller = TID
+add_core = TIDowner = TID
+controller = TID
+add_core = TID
+trade_goods = fish
+life_rating = 30

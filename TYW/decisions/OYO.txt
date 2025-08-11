@@ -1,0 +1,118 @@
+political_decisions = {
+	comprar_aire_tinamar = {
+	    picture = aire
+		potential = {
+			tag = OYO
+			NOT = {
+				has_country_flag = tinamar
+			}
+		}
+	
+		allow = {
+		  war = yes
+		  money = 10000
+		  1809 = {
+		  owned_by = OYO
+		  }
+        }			
+	
+		effect = {
+		    1809 = {
+			add_core = OYO
+			}
+			1808 = {
+			add_core = OYO
+			}
+			money = -500000
+			set_country_flag = tinamar
+		}
+    
+	}
+	
+	empesar_la_papuleada_grasienta = {
+	    picture = momad
+		potential = {
+			tag = OYO
+			NOT = {
+				has_country_flag = skibidi
+			}
+		}
+	
+		allow = {
+		  war = no
+		  year = 1640
+		  has_country_flag = tinamar
+        }			
+	
+		effect = {
+		    SOK = { all_core = { add_core = OYO} }
+			money = 5000000
+			set_country_flag = skibidi
+		}
+    
+	}
+	
+	supremasia = {
+	    picture = peru
+		potential = {
+			tag = OYO
+			NOT = {
+				has_country_flag = aceite
+			}
+		}
+	
+		allow = {
+		  war = no
+		  year = 1650
+		  NOT = {
+		  exists = SOK
+		  exists = DNI
+		  exists = BEN
+		  exists = NRI
+		  exists = SEN
+		  exists = BOR
+		  exists = ARO
+		  }
+        }			
+	
+		effect = {
+		    SOK = { all_core = { add_core = OYO} }
+			DNI = { all_core = { add_core = OYO} }
+			BEN = { all_core = { add_core = OYO} }
+			NRI = { all_core = { add_core = OYO} }
+			SEN = { all_core = { add_core = OYO} }
+			BOR = { all_core = { add_core = OYO} }
+			ARO = { all_core = { add_core = OYO} }
+			money = 5000000
+			set_country_flag = aceite
+		}
+    
+	}
+	
+	maten_peru = {
+	    picture = peru_haroo
+		potential = {
+			tag = OYO
+			NOT = {
+				has_country_flag = aceite_dos
+			}
+		}
+	
+		allow = {
+		  war = no
+		  civilized = yes
+		}
+        			
+	
+		effect = {
+			VNS = { all_core = { add_core = OYO} }
+			CLM = { all_core = { add_core = OYO} }
+			PER = { all_core = { add_core = OYO} }
+			ARG = { all_core = { add_core = OYO} }
+			money = 5000000
+			set_country_flag = aceite_dos
+		}
+    
+	}
+
+}

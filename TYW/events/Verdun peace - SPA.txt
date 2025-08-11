@@ -1,0 +1,45 @@
+country_event = {
+	id = 11
+    title = "EVTNAME11"
+	desc = "EVTDESC11"
+	picture = "spaintwy"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA11"
+		460 = {
+		secede_province = SPA
+		}
+		455 = {
+		secede_province = SPA
+		}
+		457 = {
+		secede_province = SPA
+		}
+		463 = {
+		secede_province = SPA
+		}
+		461 = {
+		secede_province = SPA
+		}
+		400 = {
+		secede_province = SPA
+		}
+		402 = {
+		secede_province = SPA
+		}
+		badboy = 15
+		prestige = 20
+	}
+	option = {
+		name = "EVTOPTB11"
+		prestige = -30
+		badboy = -10
+		400 = {
+		secede_province = SPA
+		}
+		set_country_flag = we_have_been_victorious
+		
+	}
+}

@@ -1,0 +1,115 @@
+army = {
+	name = "Quing Army"
+	location = 1479
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+	regiment = {
+		name= "1. Manchuko"
+		type = irregular
+		home = 1479
+	}
+
+}

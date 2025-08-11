@@ -1,0 +1,5 @@
+owner = NGU
+controller = NGU
+add_core = NGU
+trade_goods = tobacco
+life_rating = 30

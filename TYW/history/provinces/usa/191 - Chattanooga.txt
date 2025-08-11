@@ -1,0 +1,11 @@
+owner = CRK
+controller = CRK
+add_core = CRK
+trade_goods = coal
+life_rating = 15
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }

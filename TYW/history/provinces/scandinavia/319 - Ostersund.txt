@@ -1,0 +1,6 @@
+owner = DKN
+controller = DKN
+add_core = DKN
+add_core = SCA
+trade_goods = timber
+life_rating = 35

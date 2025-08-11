@@ -1,0 +1,5 @@
+owner = APA
+controller = APA
+add_core = APA
+trade_goods = grain
+life_rating = 15

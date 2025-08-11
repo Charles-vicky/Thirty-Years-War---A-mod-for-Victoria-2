@@ -1,0 +1,56 @@
+country_event = {
+	id = 36
+	title = "EVTNAME36"
+	desc = "EVTDESC36"
+	picture = "inf"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA36"
+		diplomatic_influence = {
+			who = FROM
+			value = -200
+		}
+		casus_belli = {
+			target = FROM
+			type = add_to_sphere
+			months = 12
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB36"
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = FROM
+			call_ally = yes
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTC36"
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+		prestige = -20
+	}
+}

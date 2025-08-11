@@ -1,0 +1,6 @@
+owner = TUA
+controller = TUA
+add_core = TRI
+add_core = TUA
+trade_goods = grain
+life_rating = 10

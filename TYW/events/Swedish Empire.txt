@@ -1,0 +1,27 @@
+country_event = {
+	id = 4
+    title = "EVTNAME4"
+	desc = "EVTDESC4"
+	picture = "swdish"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA4"
+		548 = {
+		secede_province = SWE
+		}
+		547 = {
+		secede_province = SWE
+		}
+		
+		548 = {
+		add_core = SWE
+		}
+		547 = {
+		add_core = SWE
+		}
+		prestige = 20
+		
+	}
+}

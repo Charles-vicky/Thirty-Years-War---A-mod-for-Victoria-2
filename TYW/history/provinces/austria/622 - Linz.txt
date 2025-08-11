@@ -1,0 +1,7 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = HLR
+add_core = GER
+trade_goods = sulphur
+life_rating = 35

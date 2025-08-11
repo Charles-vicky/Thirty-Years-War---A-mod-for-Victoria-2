@@ -1,0 +1,23 @@
+capital = 1300
+primary_culture = marathi
+religion = hindu
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_equality
+literacy = 0.02
+civilized = no
+
+ruling_party = BIJ_conservative
+upper_house = {
+	fascist = 0
+	liberal = 11
+	conservative = 73
+	reactionary = 16
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0

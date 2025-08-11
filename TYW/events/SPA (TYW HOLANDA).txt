@@ -1,0 +1,15 @@
+country_event = {
+	id = 9
+    title = "EVTNAME9"
+	desc = "EVTDESC9"
+	picture = "spa"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA9"
+		prestige = -20
+		set_country_flag = we_are_losers
+		
+	}
+}

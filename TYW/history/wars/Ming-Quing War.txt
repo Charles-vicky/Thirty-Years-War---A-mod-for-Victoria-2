@@ -1,0 +1,21 @@
+name = "Quing-Ming War"
+
+1635.6.1 = {
+	add_attacker = MCK
+        add_defender = CHI
+        war_goal = {
+		casus_belli = civil_war
+		actor = MCK
+		receiver = CHI
+	}
+        war_goal = {
+		casus_belli = civil_war
+		actor = CHI
+		receiver = MCK
+	}
+}
+
+1836.6.6 = {
+	rem_attacker = MCK
+	rem_defender = CHI
+}

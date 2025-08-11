@@ -1,0 +1,265 @@
+political_decisions = {
+	propose_the_army_union_law = {
+	    picture = unionarmas
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = union_de_armas
+			}
+		}
+	
+		allow = {
+		  war = yes
+		  money = 10000
+        }			
+	
+		effect = {
+		    503 = { sub_unit = { type = infantry value = current}
+			}
+			503 = { sub_unit = { type = infantry value = current}
+			}
+			503 = { sub_unit = { type = infantry value = current}
+			}
+			497 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			754 = { sub_unit = { type = infantry value = current}
+			}
+			money = -500000
+			set_country_flag = union_de_armas
+		}
+    
+	}
+	
+	the_cultural_union = {
+	    picture = union
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = cult_union
+			}
+		}
+	
+		allow = {
+		  375 = {
+		  owned_by = SPA
+		  }
+		  395 = {
+		  owned_by = SPA
+		  }
+		  754 = {
+		  owned_by = SPA
+		  }
+		  nationalism_n_imperialism = 1
+        }			
+	
+		effect = {
+		    prestige = 10
+			add_accepted_culture = flemish
+			add_accepted_culture = wallonian
+			add_accepted_culture = south_italian
+			add_accepted_culture = dutch
+			BEL = { all_core = { add_core = SPA } }
+			NET = { all_core = { add_core = SPA } }
+			LIG = { all_core = { add_core = SPA } }
+			SIC = { all_core = { add_core = SPA } }
+			set_country_flag = cult_union
+		}
+    
+	}
+	
+	abolish_fueros = {
+	    picture = union
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = fueros
+			}
+		}
+	
+		allow = {
+		  nationalism_n_imperialism = 1
+        }			
+	
+		effect = {
+		    prestige = 20
+			remove_accepted_culture = catalan
+			remove_accepted_culture = basque
+			set_country_flag = fueros
+		}
+    
+	}
+	
+	portuguese_annexion = {
+	    picture = iberia
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = portugal_integrated
+			}
+		}
+	
+		allow = {
+		  nationalism_n_imperialism = 1
+		  year = 1660
+		  is_our_vassal = POR
+        }			
+	
+		effect = {
+		    prestige = 20
+			add_accepted_culture = portuguese
+			inherit = POR
+			set_country_flag = portugal_integrated
+		}
+    
+	}
+	
+	latin_brothers = {
+	    picture = france
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = french_menance
+			}
+		}
+	
+		allow = {
+		  revolution_n_counterrevolution = 1
+		  460 = {
+		  owned_by = SPA
+		  }
+		  457 = {
+		  owned_by = SPA
+		  }
+		  461 = {
+		  owned_by = SPA
+		  }
+		  468 = {
+		  owned_by = SPA
+		  }
+		  450 = {
+		  owned_by = SPA
+		  }
+		  453 = {
+		  owned_by = SPA
+		  }
+		  FRA = {
+		  exists = yes
+          is_greater_power = no
+		  }
+        }			
+	
+		effect = {
+		    prestige = 50
+			add_accepted_culture = french
+			government = proletarian_dictatorship
+			create_vassal = FRA
+			FRA = { all_core = { add_core = SPA } }
+			set_country_flag = french_menance
+		}
+    
+	}
+
+	the_viceroyal_borders = {
+	    picture = viceroyal
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = viceroyalties
+			}
+		}
+	
+		allow = {
+		  war = no
+		  money = 10000
+		  nationalism_n_imperialism = 1
+        }			
+	
+		effect = {
+            prestige = 15
+			set_country_flag = viceroyalties
+			87 = {
+			secede_province = VNS
+			}
+			89 = {
+			secede_province = VNS
+			}
+			90 = {
+			secede_province = VNS
+			}
+			2139 = {
+			secede_province = VNS
+			}
+			2138 = {
+			secede_province = VNS
+			}
+			102 = {
+			secede_province = VNS
+			}
+			2140 = {
+			secede_province = VNS
+			}
+			2137 = {
+			secede_province = VNS
+			}
+			2260 = {
+			secede_province = CLM
+			}
+			2262 = {
+			secede_province = CLM
+			}
+			2351 = {
+			secede_province = ARG
+			}
+			2352 = {
+			secede_province = ARG
+			}
+			2354 = {
+			secede_province = ARG
+			}
+			2355 = {
+			secede_province = ARG
+			}
+			2350 = {
+			secede_province = ARG
+			}
+			2349 = {
+			secede_province = ARG
+			}
+			2382 = {
+			secede_province = ARG
+			}
+			2383 = {
+			secede_province = ARG
+			}
+			2384 = {
+			secede_province = ARG
+			}
+			2389 = {
+			secede_province = ARG
+			}
+			2390 = {
+			secede_province = ARG
+			}
+			2395 = {
+			secede_province = ARG
+			}
+			2393 = {
+			secede_province = ARG
+			}
+		}
+    
+	}
+    
+}

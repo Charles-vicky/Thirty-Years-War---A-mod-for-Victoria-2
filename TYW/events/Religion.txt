@@ -1,0 +1,51 @@
+country_event = {
+	id = 60
+    title = "EVTNAME60"
+	desc = "EVTDESC60"
+	picture = "hre"
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA60"
+		casus_belli = {
+			   target = SPA
+			   type = conquest
+			   months = 12
+	    }
+		
+		casus_belli = {
+			   target = FRA
+			   type = conquest
+			   months = 12
+	    }
+	}
+}
+
+country_event = {
+	id = 59
+    title = "EVTNAME59"
+	desc = "EVTDESC59"
+	picture = "turkish"
+	
+	trigger = {
+	     pop_majority_religion = catholic
+	     TUR = {
+	     has_country_flag = the_vienna_great_siege
+	     }
+	}
+	
+	fire_only_once = yes
+	
+
+	option = {
+		name = "EVTOPTA59"
+		casus_belli = {
+			   target = TUR
+			   type = humiliate
+			   months = 12
+	    }
+	}
+}

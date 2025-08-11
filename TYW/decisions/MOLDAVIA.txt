@@ -1,0 +1,126 @@
+political_decisions = {
+	the_inheritance_of_steban = {
+	    picture = esteban
+		potential = {
+			tag = MOL
+			NOT = {
+				has_country_flag = esteban_the_iii
+			}
+		}
+	
+		allow = {
+		  state_n_government = 1
+          prestige = 40
+          has_country_flag = moldavia_is_free
+		}
+		
+		effect = {
+	    set_country_flag = esteban_the_iii
+      	prestige = 10
+		    678 = {
+            add_core = THIS
+		    }
+        }
+        
+    }
+
+	a_new_moldavia = {
+	    picture = moldavia
+		potential = {
+			tag = MOL
+			NOT = {
+				has_country_flag = a_new_country_for_a_new_pepole
+			}
+		}
+	
+		allow = {
+		  nationalism_n_imperialism = 1
+		  is_greater_power = yes
+		  MOL = {
+		  in_sphere = THIS
+		  }
+		}
+		
+		effect = {
+	    set_country_flag = a_new_country_for_a_new_pepole
+      	prestige = 20
+		TUR = {
+			release_vassal = WAL
+		}
+		create_vassal = WAL
+		}
+        
+    }
+
+	end_with_the_ottomans = {
+	    picture = ottoman_rey
+		potential = {
+			tag = MOL
+			NOT = {
+				has_country_flag = the_end_of_the_ottomans
+			}
+		}
+	
+		allow = {
+		  nationalism_n_imperialism = 1
+          678 = {
+			owned_by = THIS
+		  }
+		}
+		
+		effect = {
+	    set_country_flag = the_end_of_the_ottomans
+      	prestige = 10
+		  MOL = {
+		      all_core = {
+			      remove_core = TUR
+			  }
+		  }
+		}
+        
+    }
+
+	claim_greater_moldavia = {
+	    picture = great_moldova
+		potential = {
+			tag = MOL
+			NOT = {
+				has_country_flag = the_great_moldavia
+			}
+		}
+	
+		allow = {
+		  revolution_n_counterrevolution = 1
+          has_country_flag = a_new_country_for_a_new_pepole
+		  is_greater_power = yes
+		  ROM = {
+			  all_core = {
+				OR = {
+					owned_by = THIS
+				    owner = {
+						in_sphere = THIS
+					}
+				}
+			  }
+		    }
+		}
+		
+		effect = {
+	    set_country_flag = the_great_moldavia
+      	prestige = 30
+		inherit = WAL
+	    ROM = {
+			all_core = {
+				add_core = THIS
+			}
+		}
+		ROM = {
+			all_core = {
+				secede_province = THIS
+			}
+		}
+        government = democracy
+        }
+    
+     }
+}

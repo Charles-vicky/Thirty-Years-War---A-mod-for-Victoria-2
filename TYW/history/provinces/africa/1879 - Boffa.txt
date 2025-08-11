@@ -1,0 +1,5 @@
+owner = KAB
+controller = KAB
+add_core = KAB
+trade_goods = fruit
+life_rating = 15

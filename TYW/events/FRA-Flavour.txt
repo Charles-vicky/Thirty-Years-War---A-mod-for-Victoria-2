@@ -1,0 +1,396 @@
+country_event = {
+	id = 3
+    title = "EVTNAME3"
+	desc = "EVTDESC3"
+	picture = "francev"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA3"
+		411 = {
+		secede_province = FRA
+		}
+		451 = {
+		secede_province = FRA
+		}
+		411 = {
+		add_core = FRA
+		}
+		451 = {
+		add_core = FRA
+		}
+		prestige = 30
+		CAT = {
+		  country_event = {
+		    id = 5
+			days = 2
+		  }
+		}
+		
+	}
+}
+
+country_event = {
+	id = 19
+    title = "EVTNAME19"
+	desc = "EVTDESC19"
+	picture = "versalles"
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+	    name = "EVTOPTA19"
+		money = -500000
+	    add_country_modifier = {
+	    name = versallies_palace 
+	    duration = 18250
+        } 
+	}
+}
+
+country_event = {
+	id = 20
+    title = "EVTNAME20"
+	desc = "EVTDESC20"
+	picture = "gcw"
+	
+	trigger = {
+		tag = FRA
+		year = 1648
+		month = 6
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA20"
+		prestige = 25
+		425 = {
+		secede_province = FRO
+		}
+		426 = {
+		secede_province = FRO
+		}
+		427 = {
+		secede_province = FRO
+		}
+		458 = {
+		secede_province = FRO
+		}
+		448 = {
+		secede_province = FRO
+		}
+		449 = {
+		secede_province = FRO
+		}
+		war = FRA
+        war = {
+	    target = FRO
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = civil_war }
+	    call_ally = no
+        }
+	}
+	option = {
+		name = "EVTOPTB20"
+		prestige = 25
+		425 = {
+		secede_province = FRO
+		}
+		426 = {
+		secede_province = FRO
+		}
+		427 = {
+		secede_province = FRO
+		}
+		458 = {
+		secede_province = FRO
+		}
+		448 = {
+		secede_province = FRO
+		}
+		449 = {
+		secede_province = FRO
+		}
+		change_tag_no_core_switch = FRO
+		war = FRO
+        war = {
+	    target = FRA
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = civil_war }
+	    call_ally = no
+        }
+	}
+}
+
+country_event = {
+	id = 73
+    title = "EVTNAME73"
+	desc = "EVTDESC73"
+	picture = "gcw"
+	
+	trigger = {
+		tag = FRA
+		NOT = {
+		exists = FRO
+		}
+		year = 1649
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA73" 
+		prestige = 10
+	}
+}
+
+country_event = {
+	id = 74
+    title = "EVTNAME74"
+	desc = "EVTDESC74"
+	picture = "gcw"
+	
+	trigger = {
+		tag = FRO
+		NOT = {
+		exists = FRA
+		}
+		year = 1649
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA74" 
+		prestige = 50
+		change_tag = FRA
+		government = bourgeois_dictatorship
+		BEL = {
+		    all_core = {
+			    add_core = FRA
+			}
+		}
+		SWI = {
+		    all_core = {
+			    add_core = FRA
+			}
+		}
+		LOR = {
+		    all_core = {
+			    add_core = FRA
+			}
+		}
+		SAV = {
+		    all_core = {
+			    add_core = FRA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 75
+    title = "EVTNAME75"
+	desc = "EVTDESC75"
+	picture = "gcw"
+	
+	trigger = {
+	    war = yes
+		tag = FRA
+		THIS = {
+		    all_core = {
+			     owned_by = FRO
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA75" 
+		THIS = {
+		    any_owned_province = {
+			     change_controller = FRO
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 21
+    title = "EVTNAME21"
+	desc = "EVTDESC21"
+	picture = "moliere"
+	
+	trigger = {
+		tag = FRA
+		year = 1658
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA21" 
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 22
+    title = "EVTNAME22"
+	desc = "EVTDESC22"
+	picture = "teatro"
+	
+	trigger = {
+		tag = FRA
+		year = 1680
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA22" 
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 44
+    title = "EVTNAME44"
+	desc = "EVTDESC44"
+	picture = "castores"
+	
+	trigger = {
+	    tag = FRA
+		year = 1642		
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA44"
+		casus_belli = {
+	        target = DES
+	        type = make_puppet
+	        months = 12
+        }
+		war = FRA
+        war = {
+	    target = DES
+	    attacker_goal = { casus_belli = make_puppet }
+	    defender_goal = { casus_belli = status_quo }
+	    call_ally = no
+        }
+		
+	}
+}
+
+country_event = {
+	id = 77
+    title = "EVTNAME77"
+	desc = "EVTDESC77"
+	picture = "diploincident"
+	
+	trigger = {
+	    tag = FRA		
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA77"
+		military_access = SAV
+		military_access = SWI
+		military_access = VEN
+	}
+}
+
+country_event = {
+	id = 62
+    title = "EVTNAME62"
+	desc = "EVTDESC62"
+	picture = "diploincident"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA62"
+		upper_house = {
+			ideology = reactionary
+			value = 100
+		}
+		prestige = 5
+		any_pop = {
+		consciousness = 7
+		militancy = 2
+		}
+		add_country_modifier = {
+	    name = absolutist
+	    duration = 1000
+        }
+	}
+	
+	option = {
+		name = "EVTOPTB62"
+		upper_house = {
+			ideology = liberal
+			value = 100
+		}
+		prestige = -5
+		any_pop = {
+		consciousness = -7
+		militancy = -4
+		}
+		add_country_modifier = {
+	    name = empirist
+	    duration = 1000
+        }
+	}
+	
+	option = {
+		name = "EVTOPTC62"
+		upper_house = {
+			ideology = conservative
+			value = 100
+		}
+		prestige = 2
+		any_pop = {
+		consciousness = 3
+		militancy = 2
+		}
+		add_country_modifier = {
+	    name = rationalist
+	    duration = 1000
+        }
+	}
+	
+	option = {
+		name = "EVTOPTD62"
+		upper_house = {
+			ideology = socialist
+			value = 100
+		}
+		prestige = -5
+		any_pop = {
+		consciousness = -10
+		militancy = -5
+		}
+        add_country_modifier = {
+	    name = parlamentarist
+	    duration = 1000
+        }   		
+	}
+}
+

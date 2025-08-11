@@ -1,0 +1,8 @@
+owner = REG
+controller = REG
+add_core = REG
+add_core = HLR
+add_core = BAV
+add_core = GER
+trade_goods = coal
+life_rating = 40

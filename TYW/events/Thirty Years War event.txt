@@ -1,0 +1,79 @@
+country_event = {
+	id = 2
+    title = "EVTNAME2"
+	desc = "EVTDESC2"
+	picture = "tyw"
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA2"
+		SWE = {
+				inherit = BRE
+		}
+		FRA = {
+		  country_event = {
+		    id = 3
+			days = 5
+		  }
+		}
+		SWE = {
+		  country_event = {
+		    id = 4
+			days = 5
+		  }
+		}
+		SPA = {
+		  country_event = {
+		    id = 9
+			days = 5
+		  }
+		}
+		prestige = -50
+		release_vassal = BAV
+		release_vassal = SAL
+		release_vassal = MIN
+		release_vassal = WRZ
+		release_vassal = REG
+		release_vassal = MEC
+		release_vassal = MUN
+		release_vassal = FCA
+		release_vassal = FCD
+		release_vassal = CLN
+		release_vassal = CLE
+		release_vassal = HAM
+		release_vassal = HAN
+		release_vassal = OLD
+		release_vassal = BRE
+		release_vassal = BRA
+		release_vassal = FRM
+		release_vassal = HEK
+		release_vassal = HES
+		release_vassal = COB
+		release_vassal = MEI
+		release_vassal = WEI
+		release_vassal = LIP
+		diplomatic_influence = {
+	    who = BRN
+	    value = -125
+		}
+		diplomatic_influence = {
+	    who = SWI
+	    value = -125
+        }
+		diplomatic_influence = {
+	    who = SAV
+	    value = -125
+		}
+		BRN = {
+		  country_event = {
+		    id = 7
+			days = 5
+		  }
+		}
+		FRA = {
+		  set_country_flag = winners_tyw
+		}
+	}
+}

@@ -1,0 +1,2 @@
+owner = DEScontroller = DESadd_core = DEStrade_goods = ironlife_rating = 15
+1861.1.1 = { railroad = 3 }

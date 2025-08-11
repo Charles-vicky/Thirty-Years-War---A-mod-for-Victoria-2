@@ -1,0 +1,7 @@
+owner = SCU
+controller = SCU
+add_core = SCU
+add_core = GER
+trade_goods = coal
+life_rating = 40
+1861.1.1 = { railroad = 3 }

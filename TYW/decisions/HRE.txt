@@ -1,0 +1,29 @@
+political_decisions = {
+    leave_hre = {
+	    picture = hre
+		potential = {
+			has_country_flag = hre_state
+		}
+		allow = {
+		    OR = {
+			is_secondary_power = yes
+			is_greater_power = yes 
+			}
+			NOT = {
+			    relation = {
+	            who = HAB
+	            value = -100
+              }
+			}
+		}
+		effect = {
+			sphere_owner = {
+				diplomatic_influence = {
+					who = THIS
+					value = -200
+				}
+			}
+			clr_country_flag = hre_state
+		}
+	}
+}

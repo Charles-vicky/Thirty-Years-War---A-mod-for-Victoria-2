@@ -1,0 +1,8 @@
+name = "Thirty Years War"
+path = "mod/TYW"
+user_dir = "TYW"
+replace_path = "history/units"
+replace_path = "decisions"
+replace_path = "events"
+replace_path = "music"
+replace_path = "gfx/flags"

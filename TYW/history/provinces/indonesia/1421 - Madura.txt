@@ -1,0 +1,5 @@
+owner = TRU
+controller = TRU
+add_core = TRU
+trade_goods = sulphur
+life_rating = 30

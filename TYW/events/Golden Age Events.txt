@@ -1,0 +1,36 @@
+country_event = {
+	id = 57
+    title = "EVTNAME57"
+	desc = "EVTDESC57"
+	picture = "golden_age"
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA57"
+		add_country_modifier = {
+	    name = golden_age
+	    duration = 18250
+        }
+	}	
+}
+
+country_event = {
+	id = 58
+    title = "EVTNAME58"
+	desc = "EVTDESC58"
+	picture = "golden_age"
+	
+	trigger = {
+	has_country_modifier = golden_age
+	has_recently_lost_war = yes
+	}
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA58"
+		remove_country_modifier = golden_age
+	}	
+}

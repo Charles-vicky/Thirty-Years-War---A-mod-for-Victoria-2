@@ -1,0 +1,30 @@
+country_event = {
+	id = 10
+    title = "EVTNAME10"
+	desc = "EVTDESC10"
+	picture = "tyw"
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA10"
+		prestige = -25
+		SPA = {
+				inherit = NET
+		    }
+		SPA = {
+		  country_event = {
+		    id = 11
+			days = 5
+		  }
+		}
+		
+		HAB = {
+		  country_event = {
+		    id = 12
+			days = 5
+		  }
+		}
+	}
+}

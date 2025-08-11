@@ -1,0 +1,6 @@
+owner = DZU
+controller = DZU
+add_core = DZU
+add_core = XIN
+trade_goods = cotton
+life_rating = 32

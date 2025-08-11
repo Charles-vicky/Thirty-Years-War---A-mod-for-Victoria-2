@@ -1,0 +1,74 @@
+country_event = {
+	id = 1
+    title = "EVTNAME1"
+	desc = "EVTDESC1"
+	picture = "cossack"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA1"
+		release = CKS
+		RUS = {
+		create_alliance = CKS
+		}
+		casus_belli = {
+	    target = CKS
+	    type = conquest
+	    months = 12
+        }
+		war = PLC
+        war = {
+	    target = CKS
+	    attacker_goal = { casus_belli = conquest }
+	    defender_goal = { casus_belli = humiliate }
+	    call_ally = no
+        }
+	}
+	
+	option = {
+	    name = "EVTOPTB1"
+		release = CKS
+		RUS = {
+		create_vassal = CKS
+		}
+        prestige = -20
+        any_pop = {
+		consciousness = 7
+		militancy = 3.50
+		}
+        1006 = {
+	    secede_province = RUS
+	    }
+		1007 = {
+		secede_province = RUS
+		}
+		1016 = {
+		secede_province = RUS
+		}
+		943 = {
+		secede_province = RUS
+		} 		
+	}
+}
+
+country_event = {
+	id = 61
+    title = "EVTNAME61"
+	desc = "EVTDESC61"
+	picture = "cossack"
+	
+	trigger = {
+	tag = PLC
+	has_recently_lost_war = yes
+	exists = CKS
+	}
+
+	option = {
+		name = "EVTOPTA61"
+		release = CKS
+		RUS = {
+		create_vassal = CKS
+		}
+	}
+}

@@ -1,0 +1,25 @@
+capital = 1272
+primary_culture = marathi
+religion = hindu
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.05
+non_state_culture_literacy = 0.05
+
+ruling_party = MAL_conservative
+upper_house = {
+	fascist = 0
+	liberal = 11
+	conservative = 73
+	reactionary = 16
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "MAL_oob.txt"

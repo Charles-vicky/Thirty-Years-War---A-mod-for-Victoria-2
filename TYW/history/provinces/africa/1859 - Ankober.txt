@@ -1,0 +1,7 @@
+owner = SHE
+controller = SHE
+add_core = SHE
+add_core = ETH
+add_core = ASS
+trade_goods = coffee
+life_rating = 30

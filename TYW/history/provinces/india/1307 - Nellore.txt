@@ -1,0 +1,6 @@
+owner = GIN
+controller = GIN
+add_core = GIN
+add_core = HND
+trade_goods = grain
+life_rating = 32

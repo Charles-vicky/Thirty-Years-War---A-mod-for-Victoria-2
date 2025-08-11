@@ -1,0 +1,10 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = HLR
+add_core = SIL
+add_core = GER
+add_core = POL
+trade_goods = iron
+life_rating = 40
+1861.1.1 = { railroad = 3 }

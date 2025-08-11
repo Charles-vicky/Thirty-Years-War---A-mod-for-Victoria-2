@@ -1,0 +1,8 @@
+owner = MIN
+controller = MIN
+add_core = MIN
+add_core = HLR
+add_core = GER
+trade_goods = cattle
+life_rating = 40
+1861.1.1 = { railroad = 3 }

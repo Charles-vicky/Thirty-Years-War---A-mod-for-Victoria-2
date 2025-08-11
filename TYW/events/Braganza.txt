@@ -1,0 +1,25 @@
+country_event = {
+	id = 8
+    title = "EVTNAME8"
+	desc = "EVTDESC8"
+	picture = "revuelta"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA8"
+		casus_belli = {
+	    target = SPA/POR
+	    type = make_puppet
+	    months = 12
+        }
+		war = SPA
+        war = {
+	    target = POR
+	    attacker_goal = { casus_belli = make_puppet }
+	    defender_goal = { casus_belli = status_quo }
+	    call_ally = no
+        }
+		
+	}
+}

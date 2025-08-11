@@ -1,0 +1,46 @@
+name = "Thirty Years War"
+
+1635.6.1 = {
+	add_attacker = FRA
+        add_attacker = SWE
+        add_attacker = SAX
+        add_attacker = HEK
+        add_attacker = BRA
+        add_attacker = VEN
+        add_attacker = SAV
+        add_attacker = MOD
+        add_attacker = PAR
+        add_attacker = SIE
+        add_attacker = NET
+	add_defender = HAB
+        add_defender = SPA
+        add_defender = POM
+        add_defender = SAL
+        add_defender = REG
+        add_defender = TUS
+        add_defender = POR
+        add_defender = HUN
+        add_defender = LOR
+        add_defender = BAV
+        add_defender = STR
+        add_defender = WRZ
+        add_defender = SWI
+        add_defender = HAN
+        add_defender = MIN
+        add_defender = BRA
+        war_goal = {
+		casus_belli = thirty_years_war_france
+		actor = FRA
+		receiver = HAB
+	}
+        war_goal = {
+		casus_belli = thirty_years_war_habsburg
+		actor = HAB
+		receiver = FRA
+	}
+}
+
+1836.6.6 = {
+	rem_attacker = FRA
+	rem_defender = HAB
+}

@@ -1,0 +1,6 @@
+owner = TAY
+controller = TAY
+add_core = TAY
+add_core = DAI
+trade_goods = grain
+life_rating = 30

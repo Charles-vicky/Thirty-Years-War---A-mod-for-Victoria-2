@@ -1,0 +1,8 @@
+owner = BEA
+controller = BEA
+add_core = BEA
+add_core = PAN
+add_core = GON
+add_core = HND
+trade_goods = dye
+life_rating = 32

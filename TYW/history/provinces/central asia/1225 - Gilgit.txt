@@ -1,0 +1,6 @@
+owner = LAD
+controller = LAD
+add_core = LAD
+add_core = KAS
+trade_goods = tea
+life_rating = 35

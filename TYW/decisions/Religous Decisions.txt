@@ -1,0 +1,72 @@
+political_decisions = {
+    build_church = {
+	    picture = church
+		potential = {
+			OR = {
+			pop_majority_religion = catholic
+			pop_majority_religion = protestant
+			pop_majority_religion = orthodox
+			pop_majority_religion = coptic
+			}
+		}
+		allow = {
+			money = 50000
+			NOT = {
+			has_country_modifier = a_church_is_in_building
+			}
+		}
+		effect = {
+			country_event = {
+		    id = 28
+		    }
+		  money = -50000
+		}
+
+	}
+	
+	build_mosque = {
+	    picture = mosque
+		potential = {
+			OR = {
+			pop_majority_religion = sunni
+			pop_majority_religion = shiite 
+		    }
+		}
+		allow = {
+			money = 50000
+			NOT = {
+			has_country_modifier = a_mosque_is_in_building
+			}
+		}
+		
+		effect = {
+		    money = -50000
+			country_event = {
+		    id = 29
+		  }
+		}
+
+	}
+	
+	buy_indulgences = {
+	    picture = indulgences
+		potential = {
+			pop_majority_religion = catholic
+		}
+		allow = {
+			money = 100000
+			NOT = {
+			has_country_modifier = indulgences
+			}
+		}
+		effect = {
+			country_event = {
+		    id = 35
+		}
+		badboy = -5
+		prestige = -5
+		money = -50000
+		}
+
+	}
+}

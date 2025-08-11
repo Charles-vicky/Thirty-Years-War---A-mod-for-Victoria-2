@@ -1,0 +1,313 @@
+country_event = {
+	id = 15
+    title = "EVTNAME15"
+	desc = "EVTDESC15"
+	picture = "bayern"
+	
+	trigger = {
+	    any_pop = {
+		militancy = 3.50
+	    }
+		war = yes
+	}
+	
+	mean_time_to_happen = {
+       months = 48
+       modifier = {
+       factor = 0.5
+	   prestige = 40
+	   militancy = 4.05
+       } 
+   }
+
+	option = {
+		name = "EVTOPTA15" 
+		upper_house = {
+			ideology = liberal
+			value = 100
+		}
+		any_pop = {
+		consciousness = -7.50
+		militancy = -3.50
+		}
+		prestige = -2
+    }
+	option = {
+		name = "EVTOPTB15" 
+		upper_house = {
+			ideology = conservative
+			value = 100
+		}
+		any_pop = {
+	    militancy = 5.0
+		}
+		prestige = 5
+    }
+	option = {
+		name = "EVTOPTC15" 
+		money = 50000
+    }
+}
+
+country_event = {
+	id = 77
+    title = "EVTNAME77"
+	desc = "EVTDESC77"
+	picture = "diploincident"
+	
+	trigger = {
+		war = yes
+	}
+	
+	mean_time_to_happen = {
+       months = 500
+       modifier = {
+       factor = 0.5
+	   prestige = 40
+	   militancy = 4.05
+       } 
+   }
+
+	option = {
+		name = "EVTOPTA77" 
+		upper_house = {
+			ideology = conservative
+			value = 100
+		}
+		any_pop = {
+			dominant_issue = {
+				value = jingoism
+				factor = 0.3
+			}
+		}
+    }
+	option = {
+		name = "EVTOPTB77" 
+		upper_house = {
+			ideology = liberal
+			value = 100
+		}
+		badboy = -3
+    }
+}
+
+country_event = {
+	id = 65
+    title = "EVTNAME65"
+	desc = "EVTDESC65"
+	picture = "bayern"
+	
+	trigger = {
+	    tag = SPA
+		OR = {
+		government = absolute_monarchy
+		government = prussian_constitutionalism 
+		government = fascist_dictatorship
+		government = hms_government
+		}
+		NOT = {
+		is_our_vassal = VNS
+		is_our_vassal = CLM
+		is_our_vassal = PER
+		is_our_vassal = ARG
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA65" 
+		prestige = 10
+		create_vassal = VNS
+		create_vassal = CLM
+		create_vassal = PER
+		create_vassal = ARG
+    }
+}
+
+country_event = {
+	id = 67
+    title = "EVTNAME67"
+	desc = "EVTDESC67"
+	picture = "hre"
+	
+	is_triggered_only = yes
+
+	option = {
+	name = EVTOPTA67
+	clr_country_flag = hre_state	
+    }
+}
+
+country_event = {
+	id = 66
+    title = "EVTNAME66"
+	desc = "EVTDESC66"
+	picture = "hre"
+	
+	trigger = {
+	    tag = HAB
+		is_greater_power = no
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = {
+		name = "EVTOPTA66" 
+		any_country = {
+		   limit = {
+		       has_country_flag = hre_state
+		   }
+		   country_event = {
+		   id = 67
+		   days = 5
+		   }
+		}
+		government = democracy
+		release_vassal = HUN
+    }
+}
+
+country_event = {
+    id = 16
+    title = "EVTNAME16"
+    desc = "EVTDESC16"
+    picture = "diploincident"
+    
+    trigger = {
+        is_greater_power = yes
+        war = no
+        any_greater_power = {
+            relation = {
+			    who = THIS
+                value = -200
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 96
+        modifier = {
+            factor = 0.5
+            prestige = 50
+            militancy = 4
+        }    
+    }   
+
+     option = {
+        name = "EVTOPTA16"
+        random_country = {
+                limit = {
+				    is_greater_power = yes
+                    relation = {
+					    who = THIS
+                        value = -50
+                    }
+                } 
+		    country_event = {
+		      id = 17
+			  days = 5
+		    }
+		}
+    }
+}
+
+country_event = {
+    id = 17
+    title = "EVTNAME17"
+    desc = "EVTDESC17"
+    picture = "diploincident"
+	
+	is_triggered_only = yes
+    
+    option = {
+       name = "EVTOPTA17"
+	   prestige = 15
+	   badboy = 3
+	   FROM = {
+		  country_event = {
+		    id = 18
+			days = 5
+		  }
+	    }
+    }
+	
+	option = {
+       name = "EVTOPTB17"
+	   prestige = -5
+	   money = 150000
+	}
+}
+
+country_event = {
+    id = 18
+    title = "EVTNAME18"
+    desc = "EVTDESC18"
+    picture = "diploincident"
+	
+	is_triggered_only = yes
+    
+    option = {
+       name = "EVTOPTA18"
+	   prestige = 5
+	   add_casus_belli = {
+       target = FROM
+       type = humiliate
+       duration = 12
+      }
+    }
+}
+
+country_event = {
+    id = 28
+    title = "EVTNAME28"
+    desc = "EVTDESC28"
+    picture = "curch"
+	
+	is_triggered_only = yes
+    
+    option = {
+       name = "EVTOPTA28"
+	   prestige = 5
+	   add_country_modifier = {
+	   name = a_church_is_in_building 
+	   duration = 365
+       } 
+    }
+}
+
+country_event = {
+    id = 29
+    title = "EVTNAME29"
+    desc = "EVTDESC29"
+    picture = "mosque"
+	
+	is_triggered_only = yes
+    
+    option = {
+       name = "EVTOPTA29"
+	   prestige = 5
+	   add_country_modifier = {
+	   name = a_mosque_is_in_building 
+	   duration = 365
+       } 
+    }
+}
+
+country_event = {
+    id = 35
+    title = "EVTNAME35"
+    desc = "EVTDESC35"
+    picture = "curch"
+	
+	is_triggered_only = yes
+    
+    option = {
+       name = "EVTOPTA35"
+	   prestige = 5
+	   add_country_modifier = {
+	   name = indulgences
+	   duration = 1826
+       } 
+    }
+}

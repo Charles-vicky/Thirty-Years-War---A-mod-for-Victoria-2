@@ -1,0 +1,5 @@
+owner = DAY
+controlller = DAY
+add_core = DAY
+trade_goods = coffee
+life_rating = 15

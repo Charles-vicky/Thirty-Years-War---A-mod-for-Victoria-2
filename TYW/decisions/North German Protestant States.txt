@@ -1,0 +1,73 @@
+political_decisions = {
+	form_north_german_confederation = {
+	    picture = ngf
+		potential = {
+			is_greater_power = yes
+			primary_culture = north_german
+			NOT = {
+				exists = GER
+				exists = NGF
+			}
+		}	
+		allow = {
+			war = no
+			state_n_government = 1
+			GER = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+						NOT = {
+							culture = north_german
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+				    primary_culture = north_german
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			diplomatic_influence = {
+				who = BAV
+				value = 400
+			}
+			diplomatic_influence = {
+				who = WUR
+				value = 400
+			}
+			diplomatic_influence = {
+				who = BAD
+				value = 400
+			}
+			any_owned = {
+				limit = {
+					is_core = GER
+				}
+				add_core = NGF
+			}			
+			change_tag = NGF
+			country_event = {
+		    id = 14
+			days = 150
+		  }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

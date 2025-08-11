@@ -1,0 +1,6 @@
+owner = DEL
+controller = DEL
+add_core = DEL
+add_core = ATJ
+trade_goods = tobacco
+life_rating = 30

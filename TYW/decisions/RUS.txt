@@ -1,0 +1,195 @@
+political_decisions = {
+     jmelnitski_revolution = {
+	    picture = cossack_rev
+		potential = {
+			 tag = RUS
+			 NOT = {
+			 has_country_flag = cossack_rev
+		     }
+	    }
+		
+		allow = {
+			money = 50000
+			year = 1648
+			NOT = {
+			exists = CKS
+			}
+		}
+		
+		effect = {
+		    PLC = {
+			    country_event = {
+		        id = 1
+				days = 5
+		        }
+		    }
+		    money = -50000
+			1006 = {
+			add_core = RUS
+			}
+			1007 = {
+			add_core = RUS
+			}
+			1016 = {
+			add_core = RUS
+			}
+			943 = {
+			add_core = RUS
+			}
+	        set_country_flag = cossack_rev		
+	   }
+
+	}
+	
+	siberia = {
+	    picture = siberia
+		potential = {
+			 tag = RUS
+			 NOT = {
+			 has_country_flag = siberia_expedition
+		     }
+	    }
+		
+		allow = {
+			money = 500000
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			2659 = {
+			secede_province = RUS
+			}
+			2658 = {
+			secede_province = RUS
+			}
+			2680 = {
+			secede_province = RUS
+			}
+			2615 = {
+			secede_province = RUS
+			}
+			2657 = {
+			secede_province = RUS
+			}
+			2693 = {
+			secede_province = RUS
+			}
+			2681 = {
+			secede_province = RUS
+			}
+			2692 = {
+			secede_province = RUS
+			}
+			2646 = {
+			secede_province = RUS
+			}
+			2691 = {
+			secede_province = RUS
+			}
+			1063 = {
+			secede_province = RUS
+			}
+			1077 = {
+			secede_province = RUS
+			}
+			1067 = {
+			secede_province = RUS
+			}
+			1469 = {
+			secede_province = RUS
+			}
+			2698 = {
+			secede_province = RUS
+			}
+			1068 = {
+			secede_province = RUS
+			}
+			2654 = {
+			secede_province = RUS
+			}
+			2674 = {
+			secede_province = RUS
+			}
+			2653 = {
+			secede_province = RUS
+			}
+		    2673 = {
+			secede_province = RUS
+			}
+			2670 = {
+			secede_province = RUS
+			}
+			2655 = {
+			secede_province = RUS
+			}
+			2675 = {
+			secede_province = RUS
+			}
+			2701 = {
+			secede_province = RUS
+			}
+			2656 = {
+			secede_province = RUS
+			}
+			2694 = {
+			secede_province = RUS
+			}
+			1076 = {
+			secede_province = RUS
+			}
+			2677 = {
+			secede_province = RUS
+			}
+			2676 = {
+			secede_province = RUS
+			}
+			1075 = {
+			secede_province = RUS
+			}
+			1078 = {
+			secede_province = RUS
+			}
+			2651 = {
+			secede_province = RUS
+			}
+			2650 = {
+			secede_province = RUS
+			}
+			2671 = {
+			secede_province = RUS
+			}
+			2695 = {
+			secede_province = RUS
+			}
+			1069 = {
+			secede_province = RUS
+			}
+			2645 = {
+			secede_province = RUS
+			}
+			2644 = {
+			secede_province = RUS
+			}
+			2669 = {
+			secede_province = RUS
+			}
+			1080 = {
+			secede_province = RUS
+			}
+			2697 = {
+			secede_province = RUS
+			}
+			2696 = {
+			secede_province = RUS
+			}
+			1079 = {
+			secede_province = RUS
+			}
+			1081 = {
+			secede_province = RUS
+			}
+	        set_country_flag = siberia_expedition		
+	   }
+
+	}
+}

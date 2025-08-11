@@ -1,0 +1,5 @@
+owner = DAF
+controller = DAF
+add_core = DAF
+trade_goods = grain
+life_rating = 10

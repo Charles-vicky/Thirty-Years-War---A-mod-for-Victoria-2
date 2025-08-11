@@ -1,0 +1,6 @@
+owner = BNT
+controller = BNT
+add_core = BNT
+trade_goods = coffee
+life_rating = 30
+colonial = 2

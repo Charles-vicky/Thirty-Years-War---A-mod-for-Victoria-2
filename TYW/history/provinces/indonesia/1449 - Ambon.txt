@@ -1,0 +1,5 @@
+owner = KNW
+controller = KNW
+add_core = KNW
+trade_goods = grain
+life_rating = 30

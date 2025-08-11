@@ -1,0 +1,114 @@
+army = {
+	name = "Armada di Turin"
+	location = 720
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = artillery
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = hussar
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = artillery
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = artillery
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = artillery
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = artillery
+		home = 720
+	}
+        regiment = {
+		name= "I. Savoyanno brigatte"
+		type = artillery
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = hussar
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = hussar
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "I. Savoyanno brigatte"
+		type = infantry
+		home = 720
+	}
+}

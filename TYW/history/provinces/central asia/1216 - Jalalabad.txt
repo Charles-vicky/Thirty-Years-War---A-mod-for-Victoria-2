@@ -1,0 +1,7 @@
+owner = KBL
+controller = KBL
+add_core = KBL
+add_core = PAN
+add_core = AFG
+trade_goods = grain
+life_rating = 35

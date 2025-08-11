@@ -1,0 +1,33 @@
+country_event = {
+	id = 7
+    title = "EVTNAME7"
+	desc = "EVTDESC7"
+	picture = "pomerania"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA7"
+		546 = {
+		secede_province = BRN
+		}
+		679 = {
+		secede_province = BRN
+		}
+		680 = {
+		secede_province = BRN
+		}
+		
+		546 = {
+		add_core = BRN
+		}
+		679 = {
+		add_core = BRN
+		}
+		680 = {
+		add_core = BRN
+		}
+		prestige = 20
+		
+	}
+}

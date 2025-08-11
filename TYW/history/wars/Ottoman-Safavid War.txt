@@ -1,0 +1,36 @@
+name = "Otoman-Safavid War"
+
+1635.6.1 = {
+	add_attacker = TUR
+        add_defender = PER
+	    war_goal = {
+		casus_belli = acquire_core_state
+                state_province_id = 934
+		actor = TUR
+		receiver = PER
+	}
+	    war_goal = {
+		casus_belli = acquire_core_state
+                state_province_id = 935
+		actor = TUR
+		receiver = PER
+	}
+	    war_goal = {
+		casus_belli = acquire_core_state
+                state_province_id = 928
+		actor = TUR
+		receiver = PER
+	}
+	    war_goal = {
+		casus_belli = acquire_core_state
+                state_province_id = 3284
+		actor = TUR
+		receiver = PER
+	}
+
+}
+
+1836.6.6 = {
+	rem_attacker = TUR
+	rem_defender = PER
+}

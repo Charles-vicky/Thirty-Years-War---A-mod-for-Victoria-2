@@ -1,0 +1,24 @@
+capital = 1229
+primary_culture = panjabi
+religion = sunni
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.02
+
+ruling_party = PUN_conservative
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 75
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "PUN_oob.txt"

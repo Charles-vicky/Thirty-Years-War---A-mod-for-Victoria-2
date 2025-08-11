@@ -1,0 +1,153 @@
+country_event = {
+	id = 14
+    title = "EVTNAME14"
+	desc = "EVTDESC14"
+	picture = "gcw"
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA14"
+		prestige = 25
+		549 = {
+		secede_province = NGR
+		}
+		557 = {
+		secede_province = NGR
+		}
+		554 = {
+		secede_province = NGR
+		}
+		556 = {
+		secede_province = NGR
+		}
+		560 = {
+		secede_province = NGR
+		}
+		559 = {
+		secede_province = NGR
+		}
+		558 = {
+		secede_province = NGR
+		}
+		534 = {
+		secede_province = NGR
+		}
+		532 = {
+		secede_province = NGR
+		}
+		573 = {
+		secede_province = NGR
+		}
+		572 = {
+		secede_province = NGR
+		}
+		575 = {
+		secede_province = NGR
+		}
+		578 = {
+		secede_province = NGR
+		}
+		580 = {
+		secede_province = NGR
+		}
+		538 = {
+		secede_province = NGR
+		}
+		577 = {
+		secede_province = NGR
+		}
+		536 = {
+		secede_province = NGR
+		}
+		566 = {
+		secede_province = NGR
+		}
+		581 = {
+		secede_province = NGR
+		}
+		583 = {
+		secede_province = NGR
+		}
+		war = NGF
+        war = {
+	    target = NGR
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = civil_war }
+	    call_ally = no
+        }
+	}
+	option = {
+		name = "EVTOPTB14"
+		prestige = 25
+		549 = {
+		secede_province = NGR
+		}
+		557 = {
+		secede_province = NGR
+		}
+		554 = {
+		secede_province = NGR
+		}
+		556 = {
+		secede_province = NGR
+		}
+		560 = {
+		secede_province = NGR
+		}
+		559 = {
+		secede_province = NGR
+		}
+		558 = {
+		secede_province = NGR
+		}
+		534 = {
+		secede_province = NGR
+		}
+		532 = {
+		secede_province = NGR
+		}
+		573 = {
+		secede_province = NGR
+		}
+		572 = {
+		secede_province = NGR
+		}
+		575 = {
+		secede_province = NGR
+		}
+		578 = {
+		secede_province = NGR
+		}
+		580 = {
+		secede_province = NGR
+		}
+		538 = {
+		secede_province = NGR
+		}
+		577 = {
+		secede_province = NGR
+		}
+		536 = {
+		secede_province = NGR
+		}
+		566 = {
+		secede_province = NGR
+		}
+		581 = {
+		secede_province = NGR
+		}
+		583 = {
+		secede_province = NGR
+		}
+		change_tag_no_core_switch = NGR
+		war = NGR
+        war = {
+	    target = NGF
+	    attacker_goal = { casus_belli = civil_war }
+	    defender_goal = { casus_belli = civil_war }
+	    call_ally = no
+        }
+	}
+}

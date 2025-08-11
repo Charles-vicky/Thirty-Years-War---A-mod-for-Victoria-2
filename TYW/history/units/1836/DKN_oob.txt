@@ -1,0 +1,120 @@
+leader = {
+	name = "Kristhian IV"
+	date = 1577.4.12
+	type = sea
+	personality = disciplined
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Albrecht von Wallenstein"
+	date = 1583.9.24
+	type = land
+	personality = charismatic
+	background = elderly
+	prestige = 0.5
+}
+
+army = {
+	name = "Søværnet i København"
+	location = 372
+	regiment = {
+		name= "Danske Infanterikorps I"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "Danske Artillerikorps"
+		type = artillery
+		home = 373
+	}
+
+	regiment = {
+		name= "Danske Infanterikorps II"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "Danske Infanterikorps III"
+		type = infantry
+		home = 367
+	}
+
+	regiment = {
+		name= "Danske Infanterikorps IV"
+		type = infantry
+		home = 2557
+	}
+
+	regiment = {
+		name= "Danske Infanterikorps V"
+		type = infantry
+		home = 2557
+	}
+}
+
+navy = {
+	name = "Swedish Navy"
+	location = 372
+	ship = {
+		name= "Karl XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fäderneslandet"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

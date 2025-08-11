@@ -1,0 +1,7 @@
+owner = BIH
+controller = BIH
+add_core = BIH
+add_core = PAN
+trade_goods = opium
+life_rating = 32
+1861.1.1 = { railroad = 3 }

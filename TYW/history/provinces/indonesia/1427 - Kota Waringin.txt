@@ -1,0 +1,6 @@
+owner = KOT
+controller = KOT
+add_core = KOT
+add_core = BNJ
+trade_goods = grain
+life_rating = 30

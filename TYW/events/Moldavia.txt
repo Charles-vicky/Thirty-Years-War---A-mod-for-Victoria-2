@@ -1,0 +1,53 @@
+country_event = {
+	id = 78
+    title = "EVTNAME78"
+	desc = "EVTDESC78"
+	picture = "moldavia"
+	
+	trigger = {
+	    tag = MOL
+		year = 1640	
+	}
+	
+    major = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA78"
+		prestige = -5
+		ai_chance = {
+            factor = 10
+             modifier = {
+                factor = 1000
+                exists = FRA
+            } 
+        }
+	}
+
+    option = {
+		name = "EVTOPTB78"
+		prestige = 20
+        TUR = {
+        release_vassal = MOL
+        }
+        MOL = {
+           all_core = {
+               add_core = TUR
+           }
+        }
+        RUS = {
+           diplomatic_influence = {
+	       who = MOL
+	       value = 200
+           }
+        }
+        RUS = {
+           relation = {
+	       who = TUR
+	       value = -400
+           }
+        }
+        set_country_flag = moldavia_is_free
+    }
+}

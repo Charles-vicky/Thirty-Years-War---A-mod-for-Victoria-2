@@ -1,0 +1,5 @@
+owner = KIL
+controller = KIL
+add_core = KIL
+trade_goods = fish
+life_rating = 20

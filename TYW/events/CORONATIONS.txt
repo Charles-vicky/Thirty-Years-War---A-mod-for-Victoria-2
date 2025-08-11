@@ -1,0 +1,50 @@
+country_event = {
+	id = 13
+    title = "EVTNAME13"
+	desc = "EVTDESC13"
+	picture = "louis"
+	
+	trigger = {
+		tag = FRA
+		year = 1654
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA13" 
+		prestige = 15
+		set_country_flag = louis_is_the_king
+		add_country_modifier = {
+	    name = louis_xiv
+	    duration = 26000
+        }
+	}
+}
+
+country_event = {
+	id = 33
+    title = "EVTNAME33"
+	desc = "EVTDESC33"
+	picture = "mehmed"
+	
+	trigger = {
+		tag = TUR
+		year = 1648
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA33" 
+		prestige = 15
+		add_country_modifier = {
+	    name = mehmed_reforms
+	    duration = 14000
+        }
+		add_accepted_culture = bosniak
+		add_accepted_culture = azerbaijani
+	}
+}

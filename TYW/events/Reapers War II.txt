@@ -1,0 +1,20 @@
+country_event = {
+	id = 5
+    title = "EVTNAME5"
+	desc = "EVTDESC5"
+	picture = "catalanmov"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA5"
+		prestige = -20
+		money = 100000		
+	}
+	
+	option = {
+		name = "EVTOPTB5"
+		prestige = 50
+		badboy = 20
+	}
+}

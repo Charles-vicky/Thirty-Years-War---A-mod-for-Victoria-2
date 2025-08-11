@@ -1,0 +1,5 @@
+owner = MAP
+controller = MAP
+add_core = MAP
+trade_goods = tea
+life_rating = 32

@@ -1,0 +1,6 @@
+owner = SHE
+controller = SHE
+add_core = SHE
+add_core = ETH
+trade_goods = cattle
+life_rating = 30

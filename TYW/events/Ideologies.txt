@@ -1,0 +1,59 @@
+country_event = {
+	id = 30
+    title = "EVTNAME30"
+	desc = "EVTDESC30"
+	picture = "parlament"
+	
+	trigger = {
+	    tag = FRA
+		year = 1648
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA30" 
+		enable_ideology = socialist
+	}
+}
+
+country_event = {
+	id = 31
+    title = "EVTNAME31"
+	desc = "EVTDESC31"
+	picture = "parlament"
+	
+	trigger = {
+	    tag = SPA
+		year = 1660
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA31" 
+		enable_ideology = communist
+	}
+}
+
+country_event = {
+	id = 32
+    title = "EVTNAME32"
+	desc = "EVTDESC32"
+	picture = "parlament"
+	
+	trigger = {
+	    tag = ENL
+		year = 1700
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA32"
+		enable_ideology = fascist
+	}
+}

@@ -1,0 +1,8 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = HLR
+add_core = BOH
+add_core = CZH
+trade_goods = coal
+life_rating = 35

@@ -1,0 +1,34 @@
+country_event = {
+	id = 12
+    title = "EVTNAME12"
+	desc = "EVTDESC12"
+	picture = "hre"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA12"
+		369 = {
+		secede_province = HAB
+		}
+		528 = {
+		secede_province = HAB
+		}
+		529 = {
+		secede_province = HAB
+		}
+		530 = {
+		secede_province = HAB
+		}
+		badboy = 5
+		prestige = 20
+		set_country_flag = habsburg_victory
+	}
+	option = {
+		name = "EVTOPTB12"
+		prestige = -30
+		badboy = -10
+		set_country_flag = habsburg_victory
+		
+	}
+}

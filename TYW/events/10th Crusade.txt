@@ -1,0 +1,203 @@
+country_event = {
+	id = 23
+    title = "EVTNAME23"
+	desc = "EVTDESC23"
+	picture = "crusade"
+	
+	trigger = {
+		tag = HAB
+		year = 1650
+		prestige = 80
+	}
+	
+	fire_only_once = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA23"
+		prestige = 30
+		
+		FRA = {
+		  country_event = {
+		    id = 27
+			days = 5
+		  }
+		}
+		
+		PAP = {
+		  country_event = {
+		    id = 24
+			days = 5
+		  }
+		}
+		
+		SPA = {
+		  country_event = {
+		    id = 24
+			days = 5
+		  }
+		}
+		
+		PLC = {
+		  country_event = {
+		    id = 24
+			days = 5
+		  }
+		}
+		
+		POR = {
+		  country_event = {
+		    id = 24
+			days = 5
+		  }
+		}
+		
+	}
+	
+	option = {
+		name = "EVTOPTB23"
+		prestige = -20
+		TUR = {
+		  prestige = 50
+		}
+	}
+}
+
+country_event = {
+	id = 24
+    title = "EVTNAME24"
+	desc = "EVTDESC24"
+	picture = "hre"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA24"
+		prestige = 10
+		create_alliance = HAB
+		relation = {
+	    who = HAB
+	    value = 400
+        }
+	}
+	
+	option = {
+		name = "EVTOPTB24"
+		prestige = -40
+	}
+}
+
+country_event = {
+	id = 25
+    title = "EVTNAME25"
+	desc = "EVTDESC25"
+	picture = "crusade"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA25"
+		war = HAB
+        war = {
+	    target = TUR
+	    attacker_goal = { casus_belli = the_last_crusade }
+	    defender_goal = { casus_belli = status_quo }
+	    call_ally = yes
+        }
+	}
+}
+
+country_event = {
+	id = 26
+    title = "EVTNAME26"
+	desc = "EVTDESC26"
+	picture = "hre"
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "EVTOPTA26"
+		prestige = -50
+		645 = {
+		secede_province = HAB
+		}
+		649 = {
+		secede_province = HAB
+		}
+		646 = {
+		secede_province = HAB
+		}
+		650 = {
+		secede_province = HAB
+		}
+		641 = {
+		secede_province = HAB
+		}
+		648 = {
+		secede_province = HAB
+		}
+		648 = {
+		secede_province = HAB
+		}
+		647 = {
+		secede_province = HAB
+		}
+		678 = {
+		secede_province = MOL
+		}
+		968 = {
+		secede_province = CRI
+		}
+		release = BUL
+		release = ISR
+		release = CRO
+		release = SER
+		release = GRE
+		release = EGY
+		release = ALD
+		release = TUN
+		release_vassal = CRI
+		release_vassal = MOL
+		release_vassal = WAL
+		release_vassal = ASS
+		release_vassal = HAR
+	}
+}
+
+country_event = {
+	id = 27
+    title = "EVTNAME27"
+	desc = "EVTDESC27"
+	picture = "hre"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA27"
+		prestige = 10
+		HAB = {
+		  country_event = {
+		    id = 25
+			days = 5
+		  }
+		}
+		create_alliance = HAB
+		relation = {
+	    who = HAB
+	    value = 400
+        }
+	}
+	
+	option = {
+		name = "EVTOPTB27"
+		prestige = -10
+		create_alliance = TUR
+		relation = {
+	    who = TUR
+	    value = 400
+        }
+	}
+}
