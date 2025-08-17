@@ -1,5 +1,6 @@
-owner = FRA
-controller = FRA
+owner = ENL
+controller = ENL
 trade_goods = fruit
 life_rating = 35
+is_slave = yes
 colonial = 2

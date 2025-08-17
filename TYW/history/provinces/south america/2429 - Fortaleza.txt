@@ -1,4 +1,6 @@
 owner = POR
 controller = POR
+colonial = 2
 trade_goods = fruit
 life_rating = 35
+is_slave = yes

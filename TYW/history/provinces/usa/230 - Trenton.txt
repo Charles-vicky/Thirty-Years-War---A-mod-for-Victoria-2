@@ -1,5 +1,7 @@
-owner = ENL
-controller = ENL
-add_core = USAtrade_goods = fishlife_rating = 35
+owner = NET
+controller = NET
 colonial = 2
+is_slave = yes
+trade_goods = fish
+life_rating = 35
 1861.1.1 = { railroad = 3 }

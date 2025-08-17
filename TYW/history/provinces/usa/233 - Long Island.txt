@@ -1,10 +1,10 @@
-owner = ENL
-controller = ENL
-add_core = USA
+owner = NET
+controller = NET
+colonial = 2
+is_slave = yes
 trade_goods = grain
 naval_base = 1
 life_rating = 35
-colonial = 2
 1861.1.1 = { 
 	railroad = 3 
 	naval_base = 3

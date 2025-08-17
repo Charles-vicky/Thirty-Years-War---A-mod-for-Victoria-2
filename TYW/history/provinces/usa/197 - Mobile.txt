@@ -1,3 +1,6 @@
+owner = CHO
+controller = CHO
+add_core = CHO
 trade_goods = cotton
 life_rating = 15
 1861.1.1 = {

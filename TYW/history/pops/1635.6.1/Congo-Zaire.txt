@@ -907,3 +907,41 @@
 	}
 
 }
+
+3287 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 175
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = bakongo
+		religion = animist
+		size = 375
+	}
+
+	soldiers = {
+		culture = bakongo
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = bakongo
+		religion = animist
+		size = 20000
+	}
+
+	slaves = {
+		culture = bakongo
+		religion = animist
+		size = 50000
+	}
+}

@@ -1,5 +1,5 @@
-owner = BAN
-controller = BAN
-add_core = BAN
+owner = FUL
+controller = FUL
+add_core = FUL
 trade_goods = grain
 life_rating = 15

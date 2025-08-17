@@ -1,5 +1,5 @@
-owner = CLM
-controller = CLM
-add_core = CLM
+owner = NET
+controller = NET
+colonial = 2
 trade_goods = tobacco
 life_rating = 35

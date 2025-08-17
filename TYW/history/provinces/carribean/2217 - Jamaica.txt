@@ -1,5 +1,6 @@
 owner = SPA
 controller = SPA
+is_slave = yes
 trade_goods = sulphur
 life_rating = 35
 colonial = 2

@@ -1,3 +1,5 @@
-
+owner = AKA
+controller = AKA
+add_core = AKA
 trade_goods = cattle
 life_rating = 30

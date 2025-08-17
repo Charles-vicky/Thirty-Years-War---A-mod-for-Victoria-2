@@ -7,14 +7,6 @@ VNS = {
 	influence_value = 40
 }
 
-CLM = {
-
-	value = 125
-	level = 5 	
-	influence_value = 40
-}
-
-
 PEU = {
 
 	value = 125
@@ -29,15 +21,6 @@ POR = {
 	level = 5 	
 	influence_value = 40
 }
-
-
-ARG = {
-
-	value = 125
-	level = 5 	
-	influence_value = 40
-}
-
 
 #Leaders
 
@@ -61,7 +44,7 @@ leader = {
 }
 
 leader = {
-	name = "Antonio Ramón Folch"
+	name = "Antonio Ramï¿½n Folch"
 	date = 1635.6.1
 	type = land
 	personality = implacable
@@ -152,12 +135,12 @@ navy = {
 	name = "1a Escuadra del Norte"
 	location = 474
 	ship = {
-		name= "Bailén"
+		name= "Bailï¿½n"
 		type = frigate
 	}
 
 	ship = {
-		name= "Reina María Cristina"
+		name= "Reina Marï¿½a Cristina"
 		type = frigate
 	}
 	
@@ -177,12 +160,12 @@ navy = {
 	name = "2a Escuadra del Norte"
 	location = 512
 	ship = {
-		name= "Rey Don Francisco de Asís"
+		name= "Rey Don Francisco de Asï¿½s"
 		type = manowar
 	}
 
 	ship = {
-		name= "Reina Doña Isabel II"
+		name= "Reina Doï¿½a Isabel II"
 		type = manowar
 	}
 }
@@ -207,12 +190,12 @@ navy = {
 	}
 	
 	ship = {
-		name= "Hernán Cortés"
+		name= "Hernï¿½n Cortï¿½s"
 		type = steam_transport
 	}
 
 	ship = {
-		name= "Isabel la Católica"
+		name= "Isabel la Catï¿½lica"
 		type = steam_transport
 	}
 
@@ -227,13 +210,13 @@ navy = {
 	}
 
 	ship = {
-		name= "Vasco Núñez de Balboa"
+		name= "Vasco Nï¿½ï¿½ez de Balboa"
 		type = steam_transport
 	}
 }
 
 navy = {
-	name = "Escuadra del Mediterráneo"
+	name = "Escuadra del Mediterrï¿½neo"
 	location = 498
 	ship = {
 		name= "Princesa de Asturias"
@@ -251,7 +234,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Colón"
+		name= "Colï¿½n"
 		type = steam_transport
 	}
 	
@@ -273,7 +256,7 @@ navy = {
 }
 
 navy = {
-	name = "Escuadra del Pacífico"
+	name = "Escuadra del Pacï¿½fico"
 	location = 1455
 	ship = {
 		name= "Favorita"
@@ -294,76 +277,76 @@ navy = {
 
 
 army = {
-	name = "Tercio de Nàpoles"
+	name = "Tercio de Nï¿½poles"
 	location = 503
 	regiment = {
-		name= "1.1a División de Infantería"
+		name= "1.1a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 754
 	}
 
 	regiment = {
-		name= "2.1a División de Infantería"
+		name= "2.1a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 760
 	}
 
 	regiment = {
-		name= "3.1a División de Infantería"
+		name= "3.1a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 503
 	}
 
 	regiment = {
-		name= "1.2a División de Infantería"
+		name= "1.2a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 503
 	}
 
 	regiment = {
-		name= "2.2a División de Infantería"
+		name= "2.2a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 766
 	}
 
 	regiment = {
-		name= "3.2a División de Infantería"
+		name= "3.2a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 753
 	}
 
 	regiment = {
-		name= "1.4a División de Infantería"
+		name= "1.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 757
 	}
 
 	regiment = {
-		name= "2.4a División de Infantería"
+		name= "2.4a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 756
 	}
 
 	regiment = {
-		name= "3.4a División de Infantería"
+		name= "3.4a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 2567
 	}
 
 	regiment = {
-		name= "1.3a División de Infantería"
+		name= "1.3a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 431
 	}
 
 	regiment = {
-		name= "2.3a División de Infantería"
+		name= "2.3a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 726
 	}
 
 	regiment = {
-		name= "3.3a División de Infantería"
+		name= "3.3a Divisiï¿½n de Infanterï¿½a"
 		type = cavalary
 		home = 726
 	}
@@ -374,97 +357,97 @@ army = {
 	name = "Tercio de Flandes"
 	location = 387
 	regiment = {
-		name= "1.1a División de Infantería"
+		name= "1.1a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 388
 	}
 
 	regiment = {
-		name= "2.1a División de Infantería"
+		name= "2.1a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 389
 	}
 
 	regiment = {
-		name= "3.1a División de Infantería"
+		name= "3.1a Divisiï¿½n de Infanterï¿½a"
 		type = artillery
 		home = 393
 	}
 
 	regiment = {
-		name= "1.2a División de Infantería"
+		name= "1.2a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 503
 	}
 
 	regiment = {
-		name= "2.2a División de Infantería"
+		name= "2.2a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 499
 	}
 
 	regiment = {
-		name= "3.2a División de Infantería"
+		name= "3.2a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 390
 	}
 
 	regiment = {
-		name= "1.4a División de Infantería"
+		name= "1.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 396
 	}
 
 	regiment = {
-		name= "2.4a División de Infantería"
+		name= "2.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 390
 	}
 
 	regiment = {
-		name= "3.4a División de Infantería"
+		name= "3.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 498
 	}
 
 	regiment = {
-		name= "1.3a División de Infantería"
+		name= "1.3a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 398
 	}
 
 	regiment = {
-		name= "2.3a División de Infantería"
+		name= "2.3a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 397
 	}
 
 	regiment = {
-		name= "3.3a División de Infantería"
+		name= "3.3a Divisiï¿½n de Infanterï¿½a"
 		type = engineer
 		home = 398
 	}
 
 	regiment = {
-		name= "1.1a División de Caballería"
+		name= "1.1a Divisiï¿½n de Caballerï¿½a"
 		type = cuirassier
 		home = 404
 	}
 
 	regiment = {
-		name= "2.1a División de Caballería"
+		name= "2.1a Divisiï¿½n de Caballerï¿½a"
 		type = cuirassier
 		home = 401
 	}
 
 	regiment = {
-		name= "3.1a División de Caballería"
+		name= "3.1a Divisiï¿½n de Caballerï¿½a"
 		type = cuirassier
 		home = 487
 	}
 
 	regiment = {
-		name= "4.1a División de Caballería"
+		name= "4.1a Divisiï¿½n de Caballerï¿½a"
 		type = hussar
 		home = 487
 	}
@@ -472,100 +455,100 @@ army = {
 }
 
 army = {
-	name = "Ejército del Norte II"
+	name = "Ejï¿½rcito del Norte II"
 	location = 494
 	regiment = {
-		name= "1.1a División de Infantería"
+		name= "1.1a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 495
 	}
 
 	regiment = {
-		name= "2.1a División de Infantería"
+		name= "2.1a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 497
 	}
 
 	regiment = {
-		name= "3.1a División de Infantería"
+		name= "3.1a Divisiï¿½n de Infanterï¿½a"
 		type = artillery
 		home = 503
 	}
 
 	regiment = {
-		name= "1.2a División de Infantería"
+		name= "1.2a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 503
 	}
 
 	regiment = {
-		name= "2.2a División de Infantería"
+		name= "2.2a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 503
 	}
 
 	regiment = {
-		name= "3.2a División de Infantería"
+		name= "3.2a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 503
 	}
 
 	regiment = {
-		name= "1.4a División de Infantería"
+		name= "1.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 515
 	}
 
 	regiment = {
-		name= "2.4a División de Infantería"
+		name= "2.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 516
 	}
 
 	regiment = {
-		name= "3.4a División de Infantería"
+		name= "3.4a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 498
 	}
 
 	regiment = {
-		name= "1.3a División de Infantería"
+		name= "1.3a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 490
 	}
 
 	regiment = {
-		name= "2.3a División de Infantería"
+		name= "2.3a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 488
 	}
 
 	regiment = {
-		name= "3.3a División de Infantería"
+		name= "3.3a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 489
 	}
 
 	regiment = {
-		name= "1.1a División de Caballería"
+		name= "1.1a Divisiï¿½n de Caballerï¿½a"
 		type = irregular
 		home = 487
 	}
 
 	regiment = {
-		name= "2.1a División de Caballería"
+		name= "2.1a Divisiï¿½n de Caballerï¿½a"
 		type = cuirassier
 		home = 487
 	}
 
 	regiment = {
-		name= "3.1a División de Caballería"
+		name= "3.1a Divisiï¿½n de Caballerï¿½a"
 		type = cuirassier
 		home = 487
 	}
 
 	regiment = {
-		name= "4.1a División de Caballería"
+		name= "4.1a Divisiï¿½n de Caballerï¿½a"
 		type = hussar
 		home = 487
 	}
@@ -573,58 +556,58 @@ army = {
 }
 
 army = {
-	name = "Ejército del Sur"
+	name = "Ejï¿½rcito del Sur"
 	location = 513
 	regiment = {
-		name= "1.5a División de Infantería"
+		name= "1.5a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 513
 	}
 
 	regiment = {
-		name= "2.5a División de Infantería"
+		name= "2.5a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 513
 	}
 
 	regiment = {
-		name= "3.5a División de Infantería"
+		name= "3.5a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 514
 	}
 
 	regiment = {
-		name= "1.6a División de Infantería"
+		name= "1.6a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 512
 	}
 
 	regiment = {
-		name= "2.6a División de Infantería"
+		name= "2.6a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 489
 	}
 
 	regiment = {
-		name= "3.6a División de Infantería"
+		name= "3.6a Divisiï¿½n de Infanterï¿½a"
 		type = irregular
 		home = 510
 	}
 
 	regiment = {
-		name= "1.7a División de Infantería"
+		name= "1.7a Divisiï¿½n de Infanterï¿½a"
 		type = infantry
 		home = 509
 	}
 
 	regiment = {
-		name= "2.7a División de Caballería"
+		name= "2.7a Divisiï¿½n de Caballerï¿½a"
 		type = dragoon
 		home = 509
 	}
 
 	regiment = {
-		name= "3.7a División de Infantería"
+		name= "3.7a Divisiï¿½n de Infanterï¿½a"
 		type = engineer
 		home = 491
 	}
@@ -632,22 +615,22 @@ army = {
 }
 
 army = {
-	name = "Ejército de Cuba"
+	name = "Ejï¿½rcito de Cuba"
 	location = 2212
 	regiment = {
-		name= "1.1a Infantería Colonial"
+		name= "1.1a Infanterï¿½a Colonial"
 		type = irregular
 		home = 481
 	}
 
 	regiment = {
-		name= "2.1a Infantería Colonial"
+		name= "2.1a Infanterï¿½a Colonial"
 		type = irregular
 		home = 482
 	}
 
 	regiment = {
-		name= "3.1a Infantería Colonial"
+		name= "3.1a Infanterï¿½a Colonial"
 		type = irregular
 		home = 476
 	}
@@ -659,19 +642,19 @@ army = {
 	}
 
 	regiment = {
-		name= "1.2a Infantería Colonial"
+		name= "1.2a Infanterï¿½a Colonial"
 		type = infantry
 		home = 476
 	}
 
 	regiment = {
-		name= "2.2a Infantería Colonial"
+		name= "2.2a Infanterï¿½a Colonial"
 		type = infantry
 		home = 476
 	}
 
 	regiment = {
-		name= "3.2a Infantería Colonial"
+		name= "3.2a Infanterï¿½a Colonial"
 		type = engineer
 		home = 487
 	}
@@ -679,22 +662,22 @@ army = {
 }
 
 army = {
-	name = "Ejército de Puerto Rico"
+	name = "Ejï¿½rcito de Puerto Rico"
 	location = 2222
 	regiment = {
-		name= "1.3a Infantería Colonial"
+		name= "1.3a Infanterï¿½a Colonial"
 		type = infantry
 		home = 474
 	}
 
 	regiment = {
-		name= "2.3a Infantería Colonial"
+		name= "2.3a Infanterï¿½a Colonial"
 		type = infantry
 		home = 474
 	}
 
 	regiment = {
-		name= "3.3a Infantería Colonial"
+		name= "3.3a Infanterï¿½a Colonial"
 		type = infantry
 		home = 474
 	}
@@ -702,40 +685,40 @@ army = {
 }
 
 army = {
-	name = "Ejército de Filipinas"
+	name = "Ejï¿½rcito de Filipinas"
 	location = 1455
 	regiment = {
-		name= "1.4a Infantería Colonial"
+		name= "1.4a Infanterï¿½a Colonial"
 		type = infantry
 		home = 1455
 	}
 
 	regiment = {
-		name= "2.4a Infantería Colonial"
+		name= "2.4a Infanterï¿½a Colonial"
 		type = infantry
 		home = 1457
 	}
 
 	regiment = {
-		name= "3.4a Infantería Colonial"
+		name= "3.4a Infanterï¿½a Colonial"
 		type = infantry
 		home = 1455
 	}
 
 	regiment = {
-		name= "1.5a Infantería Colonial"
+		name= "1.5a Infanterï¿½a Colonial"
 		type = infantry
 		home = 1456
 	}
 
 	regiment = {
-		name= "2.5a Infantería Colonial"
+		name= "2.5a Infanterï¿½a Colonial"
 		type = infantry
 		home = 1456
 	}
 
 	regiment = {
-		name= "3.5a Infantería Colonial"
+		name= "3.5a Infanterï¿½a Colonial"
 		type = artillery
 		home = 1456
 	}

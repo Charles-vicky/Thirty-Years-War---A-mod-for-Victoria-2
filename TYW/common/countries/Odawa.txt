@@ -1,4 +1,4 @@
-color = { 127  43  44 }
+color = { 235  119  104 }
 graphical_culture = Generic
 
 party = {
@@ -100,43 +100,38 @@ party = {
 }
 
 unit_names = {
-	dreadnought = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
+    dreadnought = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
+    ironclad = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
+    manowar = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
+    cruiser = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
+    frigate = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
+    monitor = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
+    clipper_transport = {
+
 	}
-	ironclad = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
-		
+    steam_transport = {
+
 	}
-	manowar = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
-	}
-	cruiser = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
-		
-	}
-	frigate = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
-		
-	}
-	monitor = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
-		
-	}
-	clipper_transport = {
-		
-	}
-	steam_transport = {
-		
-	}
-	commerce_raider = {
-		"Brigham Young" "Joseph Smith" Deseret Zion "St. John the Baptist" "Saint Peter" "Saint James" "Saint John" Moroni
-		"New Jerusalem" Nimrod Zedekiah Gideon "The Holy Spirit" "The Apostle" 
-		
-	}
+    commerce_raider = {
+        "Tatanka Iyotake" "Tashunka Witko" "Goyathlay" "Ma'kpiya-luta" "Heȟáka Sápa" "Wapiti Wankatuya" 
+        "Mato Ska" "Hu Numnu" "Tseguahi" "Wakinyan" "Mahpiya Luta" "Wicasa Wakan" "Ogle Tanka"
+    }
 }

@@ -14,10 +14,18 @@ alliance=
 		start_date="1618.5.28"
 	}
 
-alliance=
+	alliance=
 	{
-		first="HAB"
-		second="HRE"
+		first="SPA"
+		second="PEU"
+		end_date="1724.1.1"
+		start_date="1618.5.28"
+	}
+
+	alliance=
+	{
+		first="SPA"
+		second="VNS"
 		end_date="1724.1.1"
 		start_date="1618.5.28"
 	}

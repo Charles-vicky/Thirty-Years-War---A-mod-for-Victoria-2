@@ -1,3 +1,6 @@
+owner = CRW
+controller = CRW
+add_core = CRW
 trade_goods = cattle
 life_rating = 15
 1861.1.1 = {

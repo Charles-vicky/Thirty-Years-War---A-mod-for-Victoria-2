@@ -1,12 +1,7 @@
-owner = FRA
-controller = FRA
+owner = NET
+controller = NET
 add_core = FUL
 trade_goods = grain
 life_rating = 15
-1861.1.1 = {
-	owner = FRA
-	controller = FRA
-	colonial = 2
-	naval_base = 1
-	life_rating = 30
-}
+colonial = 2
+is_slave = yes

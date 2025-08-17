@@ -1,2 +1,6 @@
+owner = POR
+controller = POR
+add_core = KON
+colonial = 2
 trade_goods = coffee
 life_rating = 25

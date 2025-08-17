@@ -1,2 +1,5 @@
+owner = BAN
+controller = BAN
+add_core = BAN
 trade_goods = cotton
 life_rating = 15

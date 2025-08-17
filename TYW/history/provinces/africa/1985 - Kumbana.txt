@@ -1,5 +1,6 @@
-owner = KON
-controller = KON
+owner = ANZ
+controller = ANZ
+add_core = ANZ
 add_core = KON
 trade_goods = grain
 life_rating = 15

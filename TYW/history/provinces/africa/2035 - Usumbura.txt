@@ -1,2 +1,5 @@
+owner = BDI
+controller = BDI
+add_core = BDI
 trade_goods = cotton
 life_rating = 15

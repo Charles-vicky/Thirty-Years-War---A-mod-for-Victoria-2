@@ -1,5 +1,5 @@
-owner = APA
-controller = APA
-add_core = APA
+owner = COM
+controller = COM
+add_core = COM
 trade_goods = sulphur
 life_rating = 15

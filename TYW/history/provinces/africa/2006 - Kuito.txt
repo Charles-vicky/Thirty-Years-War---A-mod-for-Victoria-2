@@ -1,2 +1,7 @@
+owner = POR
+controller = POR
+add_core = KON
+colonial = 2
 trade_goods = fruit
 life_rating = 15
+is_slave = yes

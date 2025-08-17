@@ -1,6 +1,6 @@
-owner = CRK
-controller = CRK
-add_core = CRK
+owner = QUA
+controller = QUA
+add_core = QUA
 trade_goods = iron
 life_rating = 15
 1861.1.1 = {

@@ -1,9 +1,6 @@
 owner = SPA
 controller = SPA
+is_slave = yes
 trade_goods = tobacco
 life_rating = 35
 colonial = 2
-1861.1.1 = {
-owner = DOM
-controller = DOM
-}

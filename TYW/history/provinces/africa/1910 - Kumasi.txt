@@ -1,2 +1,5 @@
+owner = AKA
+controller = AKA
+add_core = AKA
 trade_goods = coffee
 life_rating = 15

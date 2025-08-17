@@ -1,27 +1,5 @@
-owner = CAL
-controller = CAL
-add_core = CAL
+owner = DES
+controller = DES
+add_core = DES
 trade_goods = coal
 life_rating = 15
-1861.1.1 = {
-	state_building = {
-		level = 1
-		building = steel_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = canned_food_factory
-		upgrade = yes
-	}
-	party_loyalty = {
-		ideology = liberal
-		loyalty_value = 25
-	}
-}
-1861.1.1 = { railroad = 3 }

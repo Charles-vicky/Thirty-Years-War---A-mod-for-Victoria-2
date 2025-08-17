@@ -1,4 +1,4 @@
-color = { 56  120  191 }
+color = { 76  105  153 }
 graphical_culture = AfricanGC
 
 party = {

@@ -1,1 +1,8 @@
-trade_goods = coallife_rating = 151861.1.1 = {	colony = 0	}
+owner = CRW
+controller = CRW
+add_core = CRW
+trade_goods = coal
+life_rating = 15
+1861.1.1 = {
+	colony = 0
+	}
