@@ -6,12 +6,13 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.1
 
-ruling_party = ASA_conservative
+ruling_party = "Brahmans"
 upper_house = {
 	fascist = 0
-	liberal = 11
-	conservative = 73
-	reactionary = 16
+	liberal = 0
+	conservative = 40
+	reactionary = 30
+	crown = 30
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

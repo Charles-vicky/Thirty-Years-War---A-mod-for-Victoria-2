@@ -87,7 +87,7 @@ party = {
 
 party = {
 	name = "JOH_fascist"
-	start_date = 17s05.1.1
+	start_date = 1600.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist

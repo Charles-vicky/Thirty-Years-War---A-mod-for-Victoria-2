@@ -1,19 +1,18 @@
 capital = 1121
-primary_culture = persian
-culture = azerbaijani
-culture = kurdish
+primary_culture = kurdish
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.07
 
-ruling_party = ARD_conservative
+ruling_party = "Bey's Faction"
 upper_house = {
 	fascist = 0
-	liberal = 12
-	conservative = 60
-	reactionary = 28
+	liberal = 0
+	conservative = 20
+	reactionary = 20
+	crown = 60
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

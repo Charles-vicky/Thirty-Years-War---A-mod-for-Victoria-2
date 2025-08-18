@@ -26,12 +26,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = ARM_conservative
+ruling_party = "Boyar Faction"
 upper_house = {
 	fascist = 0
-	liberal = 16
-	conservative = 75
-	reactionary = 9
+	liberal = 0
+	conservative = 20
+	reactionary = 60
+	crown = 20
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

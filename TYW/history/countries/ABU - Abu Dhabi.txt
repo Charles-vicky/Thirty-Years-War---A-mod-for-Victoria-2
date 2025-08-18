@@ -6,12 +6,13 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.3
 
-ruling_party = ABU_conservative
+ruling_party = "Umera Faction"
 upper_house = {
 	fascist = 0
-	liberal = 10
-	conservative = 75
+	liberal = 5
+	conservative = 60
 	reactionary = 15
+	crown = 20
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

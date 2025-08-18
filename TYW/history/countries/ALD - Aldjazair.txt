@@ -6,12 +6,13 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.05
 
-ruling_party = ALD_conservative
+ruling_party = "Sultan's Faction"
 upper_house = {
 	fascist = 0
-	liberal = 12
-	conservative = 75
-	reactionary = 13
+	liberal = 0
+	conservative = 20
+	reactionary = 20
+	crown = 60
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

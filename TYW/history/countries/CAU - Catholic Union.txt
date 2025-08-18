@@ -30,7 +30,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = CAU_conservative
+ruling_party = "Clergy Faction"
 upper_house = {
 	fascist = 0
 	liberal = 25

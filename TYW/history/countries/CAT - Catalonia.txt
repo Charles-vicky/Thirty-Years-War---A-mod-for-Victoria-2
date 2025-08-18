@@ -27,14 +27,15 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = CAT_conservative
+ruling_party = "Peasants Faction"
 upper_house = {
-	fascist = 0
-	liberal = 23
-	conservative = 58
-	reactionary = 19
+	fascist = 20
+	liberal = 0
+	conservative = 20
+	reactionary = 0
+	crown = 10
 	anarcho_liberal = 0
-	socialist = 0
+	socialist = 50
 	communist = 0
 }
 

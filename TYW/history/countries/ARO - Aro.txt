@@ -9,12 +9,13 @@ nationalvalue = nv_order
 literacy = 0.04
 non_state_culture_literacy = 0.03
 
-ruling_party = ARO_conservative
+ruling_party = "Oracles Faction"
 upper_house = {
 	fascist = 0
-	liberal = 16
-	conservative = 63
-	reactionary = 21
+	liberal = 0
+	conservative = 60
+	reactionary = 20
+	crown = 20
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

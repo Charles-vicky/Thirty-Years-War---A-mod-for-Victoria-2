@@ -28,12 +28,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = TUR_reactionary
+ruling_party = "Sultan's Faction" 
 upper_house = {
-	fascist = 0
-	liberal = 25
-	conservative = 60
+	fascist = 30
+	liberal = 5
+	conservative = 10
 	reactionary = 15
+	crown = 40
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

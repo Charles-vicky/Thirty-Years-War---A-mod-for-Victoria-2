@@ -26,12 +26,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = "Rationalist Faction"
+ruling_party = "Dharman's Faction"
 upper_house = {
 	fascist = 0
-	liberal = 12
-	conservative = 77
-	reactionary = 11
+	liberal = 0
+	conservative = 20
+	reactionary = 20
+	crown = 60
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

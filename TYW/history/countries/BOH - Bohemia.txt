@@ -27,17 +27,16 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = BOH_conservative
+ruling_party = "Nobility Faction"
 upper_house = {
-	fascist = 0
-	liberal = 28
-	conservative = 59
-	reactionary = 13
-	anarcho_liberal = 0
+	fascist = 20
+	liberal = 0
+	conservative = 15
+	reactionary = 25
+	crown = 18
+	anarcho_liberal = 22
 	socialist = 0
 	communist = 0
-
-
 }
 
 oob = "BOH_oob.txt"

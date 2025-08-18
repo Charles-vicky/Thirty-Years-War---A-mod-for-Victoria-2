@@ -1,19 +1,20 @@
 capital = 1393
 primary_culture = malay
 culture = yue
-religion = sunni
+religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.03
 non_state_culture_literacy = 0.03
 
-ruling_party = BRU_conservative
+ruling_party = "Shamans"
 upper_house = {
-	fascist = 0
-	liberal = 10
-	conservative = 75
-	reactionary = 15
+	fascist = 20
+	liberal = 0
+	conservative = 40
+	reactionary = 20
+	crown = 20
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

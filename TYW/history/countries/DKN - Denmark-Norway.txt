@@ -29,7 +29,7 @@ unemployment_subsidies = low_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = DKN_conservative
+ruling_party = "Adel Faction"
 upper_house = {
 	fascist = 0
 	liberal = 17

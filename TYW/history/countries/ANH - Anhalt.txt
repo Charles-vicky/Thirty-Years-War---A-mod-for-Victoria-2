@@ -27,12 +27,13 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = ANH_conservative_2
+ruling_party = "Nobility Faction"
 upper_house = {
 	fascist = 0
-	liberal = 28
-	conservative = 59
-	reactionary = 13
+	liberal = 5
+	conservative = 15
+	reactionary = 70
+	crown = 10
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
